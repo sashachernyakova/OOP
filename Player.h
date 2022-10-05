@@ -2,19 +2,19 @@
 #define UNTITLED57_PLAYER_H
 
 class Player{
-    int hasSkipEvent;
+    int totalSkipEvent;
     int totalSteps;
-    int hasChangeEvent;
+    int totalChangeEvent;
 public:
     Player();
 
-    void plusStep();
+    void makeStep();
 
     int getTotalSteps() const;
 
-    int numberChangeEvent() const;
+    int getChangeEvent() const;
 
-    int numberSkipEvent() const;
+    int getSkipEVent() const;
 };
 
 #endif

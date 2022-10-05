@@ -3,19 +3,19 @@
 CellView::CellView(): cellView('*') {};
 char CellView::getCellView(Cell cell){
     switch (cell.getCondition()) {
-        case (Condition::available): {
+        case (Cell::Condition::available): {
             cellView = '*';
             break;
         }
-        case (Condition::unavailable): {
+        case (Cell::Condition::unavailable): {
             cellView = ' ';
             break;
         }
-        case (Condition::personStand): {
+        case (Cell::Condition::personStand): {
             cellView = 'P';
             break;
         }
-        case (Condition::event): {
+        case (Cell::Condition::event): {
             cellView = 'E';
             break;
         }

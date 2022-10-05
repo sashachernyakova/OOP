@@ -4,8 +4,7 @@
 class IEvent{
 };
 
- /*
-  111
+/*
 class TwoStepsRight: public IEvent{
 };
 
@@ -17,6 +16,6 @@ class OneStepDown: public IEvent{
 
 class FourStepsUp: public IEvent{
 };
- */
+*/
 
 #endif

@@ -6,12 +6,13 @@
 
 
 class Mediator{
-    Controller controller;
+    Controller* controller;
     CommandReader reader;
     std::string size1;
     std::string size2;
 public:
     Mediator();
+    ~Mediator();
 };
 
 #endif

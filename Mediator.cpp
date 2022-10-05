@@ -1,34 +1,49 @@
 #include "Mediator.h"
 
 Mediator::Mediator(): reader(CommandReader()){
-    std::cout << "If you want to create a field with default sizes, then enter 1, with your own sizes - 2\n";
-    reader.read();
-    if (reader.getResult() == "1"){
-        controller = Controller();
-    } else{
+    std::cout << "If you want to create a field with default sizes 10x10, then enter 1, with your own sizes - 2\n";
+    size1 = reader.read();
+    if (size1 == "1"){
+        controller = new Controller();
+    } else if (size1 == "2"){
         std::cout << "Enter field's height\n";
-        reader.read();
-        size1 = reader.getResult();
+        size1 = reader.read();
+        if(size1[0] == '-'){
+            std::cout << "Height can not be negative. The height is set with default size 10.\n";
+            size1 = "10";
+        }
         std::cout << "Enter field's width\n";
-        reader.read();
-        size2 = reader.getResult();
-        controller = Controller(std::stoi(size1), std::stoi(size2));
+        size2 = reader.read();
+        if(size2[0] == '-'){
+            std::cout << "Width can not be negative. The width is set with default size 10.\n";
+            size2 = "10";
+        }
+        controller = new Controller(std::stoi(size1), std::stoi(size2));
+    } else {
+        std::cout << "You can not enter this number. The field is set with default sizes: 10x10\n";
+        controller = new Controller();
     }
-    controller.printStartField();
     std::cout << "The game has begun. You can start moving the player. Input format: <number of steps><enter><action>\nTo find out the total number of steps, enter steps\n";
     while(5 == 5){
-        reader.read();
-        size1 = reader.getResult();
+        size1 = reader.read();
         if (size1 == "steps"){
-            controller.level();
+            controller->steps();
         }else if (size1 == "stop"){
             std::cout << "Game over" << "\n";
             break;
         }else{
-            reader.read();
-            size2 = reader.getResult();
-            controller.movement(std::stoi(size1), size2);
+            size2 = reader.read();
+            if (reader.isDirection(size2 )){
+                controller->movement(std::stoi(size1), reader.getAction(size2));
+            } else {
+                std::cout << "You entered error direction. You can enter: right, left, up, down\n";
+            }
         }
     }
 }
+
+Mediator::~Mediator(){
+    delete controller;
+}
+
 

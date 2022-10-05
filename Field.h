@@ -1,17 +1,18 @@
+#ifndef UNTITLED57_FIELD_H
+#define UNTITLED57_FIELD_H
+
 #include <iostream>
 #include <vector>
 #include "Cell.h"
 #include "Player.h"
 
 class Field{
-    Player* player;
-    int vert;
-    int hor;
+    int h;
+    int w;
     std::vector<std::vector<Cell>> field;
     int personX;
     int personY;
-    Condition prevCondition;
-    void swap(Field& other);
+    Cell::Condition prevCondition;
 public:
     enum Action{
         right,
@@ -20,7 +21,7 @@ public:
         down
     };
 
-    Field(Player* player, int vertic = 10, int horizont = 10);
+    Field(int h = 10, int w = 10);
 
     Field(const Field &other);
 
@@ -30,15 +31,14 @@ public:
 
     Field& operator = (Field&& other);
 
-    int getGor() const;
+    int getWidth() const;
 
-    int getVert() const;
+    int getHeight() const;
 
     std::vector<std::vector<Cell>> getField();
 
-    Action getAction(char firstLetter);
-
     bool canMove(Action action);
 
-    void changePlayerPosition (std::string action, int step);
 };
+
+#endif

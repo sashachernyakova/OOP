@@ -6,15 +6,17 @@
 
 class FieldView {
     std::vector<std::vector<char>> fieldView;
-    int vert;
-    int hor;
+    int h;
+    int w;
     CellView cellView;
 public:
-    FieldView(Field *field);
+    FieldView(Field* field);
 
     void changeFieldView(Field *newField);
 
     void printField();
+
 };
+
 
 #endif

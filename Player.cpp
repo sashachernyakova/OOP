@@ -1,8 +1,8 @@
 #include "Player.h"
 
-Player::Player(): hasSkipEvent(3), totalSteps(0), hasChangeEvent(5) {};
+Player::Player(): totalSkipEvent(3), totalSteps(0), totalChangeEvent(5) {};
 
-void Player::plusStep(){
+void Player::makeStep(){
     totalSteps += 1;
 }
 
@@ -10,10 +10,10 @@ int Player::getTotalSteps() const{
     return totalSteps;
 }
 
-int Player::numberChangeEvent() const{
-    return hasChangeEvent;
+int Player::getChangeEvent() const{
+    return totalChangeEvent;
 }
 
-int Player::numberSkipEvent() const {
-    return hasSkipEvent;
+int Player::getSkipEVent() const {
+    return totalSkipEvent;
 }
