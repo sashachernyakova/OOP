@@ -2,9 +2,10 @@
 #define UNTITLED57_PLAYER_H
 
 class Player{
-    int totalSkipEvent;
     int totalSteps;
-    int totalChangeEvent;
+    int hp;
+    int xp;
+    int treasure;
 public:
     Player();
 
@@ -12,9 +13,18 @@ public:
 
     int getTotalSteps() const;
 
-    int getChangeEvent() const;
+    int getHP() const;
 
-    int getSkipEVent() const;
+    int getXP() const;
+
+    int getTreasure() const;
+
+    void changeHP(int newHP);
+
+    void changeXP(int newXP);
+
+    void changeTreasure();
+
 };
 
 #endif

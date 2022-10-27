@@ -7,6 +7,10 @@ Cell::Condition Cell::getCondition(){
     return condition;
 }
 
+IEvent* Cell::getEvent(){
+    return ev;
+};
+
 Cell::Cell(const Cell &other){
     this->condition = other.condition;
     this->ev = nullptr;
@@ -42,7 +46,6 @@ void Cell::changeEvent(IEvent* event){
     ev = event;
 }
 
-
 void Cell::changeCondition(Cell::Condition newCondition){
     condition = newCondition;
 }
@@ -50,7 +53,5 @@ void Cell::changeCondition(Cell::Condition newCondition){
 Cell::~Cell() {
     delete ev;
 }
-
-
 
 

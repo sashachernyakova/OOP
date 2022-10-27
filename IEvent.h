@@ -1,21 +1,11 @@
 #ifndef UNTITLED57_IEVENT_H
 #define UNTITLED57_IEVENT_H
 
+#include <iostream>
+
 class IEvent{
+public:
+    virtual bool makeEvent(void* ev) = 0;
 };
-
-/*
-class TwoStepsRight: public IEvent{
-};
-
-class TwoStepsLeft: public IEvent{
-};
-
-class OneStepDown: public IEvent{
-};
-
-class FourStepsUp: public IEvent{
-};
-*/
 
 #endif

@@ -11,7 +11,8 @@ public:
         available,
         unavailable,
         personStand,
-        event
+        eventP,
+        eventF
     };
 
     Cell(Condition condition = Condition::available, IEvent* ev = nullptr);
@@ -26,6 +27,8 @@ public:
 
     Condition getCondition();
 
+    IEvent* getEvent();
+
     void changeEvent(IEvent* event);
 
     void changeCondition(Condition newCondition);
@@ -34,8 +37,6 @@ public:
 private:
     IEvent* ev;
     Cell::Condition condition;
-
 };
 
 #endif
-
