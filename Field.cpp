@@ -11,6 +11,20 @@ Field::Field(int h, int w):h(h), w(w){
         }
     }
 
+    mp.emplace(IObserver::win, 0);
+    mp.emplace(IObserver::lose, 0);
+    mp.emplace(IObserver::stopGame, 0);
+    mp.emplace(IObserver::gameStart, 0);
+    mp.emplace(IObserver::health, 100);
+    mp.emplace(IObserver::experience, 0);
+    mp.emplace(IObserver::experience, 0);
+    mp.emplace(IObserver::treasure, 0);
+    mp.emplace(IObserver::someSteps, 0);
+    mp.emplace(IObserver::allSteps, 0);
+    mp.emplace(IObserver::errorHeight, 0);
+    mp.emplace(IObserver::errorWidth, 0);
+    mp.emplace(IObserver::errorDirection, 0);
+    mp.emplace(IObserver::errorStartNumber, 0);
 
     field[1][1] = Cell(Cell::Condition::unavailable);
     field[3][0] = Cell(Cell::Condition::unavailable);
@@ -189,3 +203,44 @@ void Field::setPersonToStart() {
     prevCondition = Cell::available;
 }
 
+void Field::addObserver(IObserver *o) {
+    observers.push_back(o);
+}
+
+void Field::removeObserver(IObserver *o) {
+    observers.erase(remove(observers.begin(), observers.end(), o), observers.end());
+}
+
+void Field::notify(int m, IObserver::Logger l) {
+    for(auto o: observers){
+        o->update(m, l);
+    }
+}
+
+std::map<IObserver::Logger, int>& Field::getMap(){
+    return mp;
+}
+
+void Field::stopGame() {
+    notify(mp[IObserver::stopGame], IObserver::stopGame);
+}
+
+void Field::gameStart() {
+    notify(mp[IObserver::gameStart], IObserver::gameStart);
+}
+
+void Field::errorHeight() {
+    notify(mp[IObserver::errorHeight], IObserver::errorHeight);
+}
+
+void Field::errorWidth() {
+    notify(mp[IObserver::errorWidth], IObserver::errorWidth);
+}
+
+void Field::errorDirection() {
+    notify(mp[IObserver::errorDirection], IObserver::errorDirection);
+}
+
+void Field::errorStartNumber() {
+    notify(mp[IObserver::errorStartNumber], IObserver::errorStartNumber);
+}

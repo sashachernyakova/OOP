@@ -1,6 +1,7 @@
 #ifndef UNTITLED57_CELL_H
 #define UNTITLED57_CELL_H
 
+#pragma once
 
 #include <iostream>
 #include "IEvent.h"

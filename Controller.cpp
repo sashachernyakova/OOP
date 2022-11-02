@@ -1,11 +1,18 @@
 #include "Controller.h"
 
-Controller::Controller(int y, int x){
-    output = Output();
+Controller::Controller(int log, int y, int x): log(log){
     alex = new Player();
     field = new Field(y, x);
     fieldView = new FieldView(field);
     fieldView->printField();
+    if(log == 1){
+        o = (PlayerFieldObserver*)(new PlayerFieldObserver(field));
+    } else if(log == 2){
+        o = (GameObserver*)(new GameObserver(field));
+    } else{
+        o = (ErrorObserver*)(new ErrorObserver(field));
+    }
+
 }
 
 int Controller::changePlayerPosition (Field::Action direction, int step) {
@@ -18,13 +25,18 @@ int Controller::changePlayerPosition (Field::Action direction, int step) {
             if(field->getPrevCondition() == Cell::eventP){
                 if(field->getPersonCell()->getEvent()->makeEvent(alex)){
                     field->changePrevCondition(Cell::Condition::unavailable);
-                    output.personInfo(alex->getHP(), alex->getXP(), alex->getTreasure());
+                    (field->getMap())[IObserver::health] = alex->getHP();
+                    (field->getMap())[IObserver::experience] = alex->getXP();
+                    (field->getMap())[IObserver::treasure] = alex->getTreasure();
+                    field->notify((field->getMap())[IObserver::health], IObserver::health);
+                    field->notify((field->getMap())[IObserver::experience], IObserver::experience);
+                    field->notify((field->getMap())[IObserver::treasure], IObserver::treasure);
                     if (alex->getTreasure() == 5){
-                        output.win();
+                        field->notify((field->getMap())[IObserver::win], IObserver::win);
                         return 1;
                     }
                 } else {
-                    output.gameOver();
+                    field->notify((field->getMap())[IObserver::lose],IObserver::lose);
                     return 1;
                 }
             }
@@ -35,13 +47,15 @@ int Controller::changePlayerPosition (Field::Action direction, int step) {
 
         } else {
             flag = 1;
-            output.someSteps(counter);
+            (field->getMap())[IObserver::someSteps] = counter;
+            field->notify((field->getMap())[IObserver::someSteps], IObserver::someSteps);
             break;
         }
         fieldView->changeFieldView(field);
     }
     if (flag != 1) {
-        output.allSteps(step);
+        (field->getMap())[IObserver::allSteps] = counter;
+        field->notify((field->getMap())[IObserver::allSteps], IObserver::allSteps);
     }
     return 0;
 }
@@ -80,4 +94,28 @@ Controller::~Controller() {
     delete alex;
     delete field;
     delete fieldView;
+}
+
+void Controller::stop() {
+    field->stopGame();
+}
+
+void Controller::start() {
+    field->gameStart();
+}
+
+void Controller::errorH() {
+    field->errorHeight();
+}
+
+void Controller::errorW() {
+    field->errorWidth();
+}
+
+void Controller::errorD() {
+    field->errorDirection();
+}
+
+void Controller::errorNumber() {
+    field->errorStartNumber();
 }

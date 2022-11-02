@@ -1,10 +1,13 @@
 #ifndef UNTITLED57_OUTPUT_H
 #define UNTITLED57_OUTPUT_H
 
+#pragma once
+
 #include <iostream>
 
 class Output{
 public:
+    void logger();
     void startGame();
     void getHeight();
     void getWidth();

@@ -1,6 +1,8 @@
 #ifndef UNTITLED57_PLAYER_H
 #define UNTITLED57_PLAYER_H
 
+#pragma once
+
 class Player{
     int totalSteps;
     int hp;

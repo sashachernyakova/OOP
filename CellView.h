@@ -1,6 +1,8 @@
 #ifndef UNTITLED57_CELLVIEW_H
 #define UNTITLED57_CELLVIEW_H
 
+#pragma once
+
 #include "Cell.h"
 
 class CellView{

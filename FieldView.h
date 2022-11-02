@@ -1,6 +1,8 @@
 #ifndef UNTITLED57_FIELDVIEW_H
 #define UNTITLED57_FIELDVIEW_H
 
+#pragma once
+
 #include "Field.h"
 #include "CellView.h"
 
