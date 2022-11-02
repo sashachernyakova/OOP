@@ -98,6 +98,12 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.h">
 			<Option target="untitled57"/>
 		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h">
+			<Option target="untitled57"/>
+		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp">
 			<Option target="untitled57"/>
 		</Unit>
@@ -116,6 +122,9 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.h">
 			<Option target="untitled57"/>
 		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h">
+			<Option target="untitled57"/>
+		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field.cpp">
 			<Option target="untitled57"/>
 		</Unit>
@@ -129,6 +138,18 @@
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FieldView.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp">
@@ -146,6 +167,9 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IEvent.h">
 			<Option target="untitled57"/>
 		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ILog.h">
+			<Option target="untitled57"/>
+		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IObservable.h">
 			<Option target="untitled57"/>
 		</Unit>
@@ -156,6 +180,15 @@
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Message.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output.cpp">

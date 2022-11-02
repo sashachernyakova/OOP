@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/Users/chernyakova.run/CLionProjects/untitled57/Cell.cpp
+Cell.h
+/Users/chernyakova.run/CLionProjects/untitled57/Cell.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
 iostream
 -
 IEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/IEvent.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/CellView.cpp
+CellView.h
+/Users/chernyakova.run/CLionProjects/untitled57/CellView.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/CellView.h
 Cell.h
 /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.cpp
+CommandReader.h
+/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.h
+string
+-
+iostream
+-
+
+/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp
+ConsoleOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h
+ILog.h
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp
 Controller.h
@@ -25,14 +51,38 @@ FieldView.h
 /Users/chernyakova.run/CLionProjects/untitled57/FieldView.h
 Player.h
 /Users/chernyakova.run/CLionProjects/untitled57/Player.h
+NoOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
+ConsoleOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h
+FileOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h
+FIleConsoleOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Enemy.cpp
+Enemy.h
+/Users/chernyakova.run/CLionProjects/untitled57/Enemy.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Enemy.h
 PersonEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.cpp
+ErrorObserver.h
+/Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.h
 IObservable.h
 /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h
+ILog.h
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Field.cpp
+Field.h
+/Users/chernyakova.run/CLionProjects/untitled57/Field.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Field.h
 iostream
@@ -64,15 +114,45 @@ GameObserver.h
 IEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/IEvent.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/FieldView.cpp
+FieldView.h
+/Users/chernyakova.run/CLionProjects/untitled57/FieldView.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/FieldView.h
 Field.h
 /Users/chernyakova.run/CLionProjects/untitled57/Field.h
 CellView.h
 /Users/chernyakova.run/CLionProjects/untitled57/CellView.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp
+FIleConsoleOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h
+fstream
+-
+
+/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp
+FileOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h
+fstream
+-
+
+/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h
+ILog.h
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp
+FromStart.h
+/Users/chernyakova.run/CLionProjects/untitled57/FromStart.h
+Field.h
+/Users/chernyakova.run/CLionProjects/untitled57/Field.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/FromStart.h
 FieldEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/FieldEvent.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp
+GameObserver.h
+/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/GameObserver.h
 IObservable.h
@@ -81,6 +161,10 @@ IObservable.h
 /Users/chernyakova.run/CLionProjects/untitled57/IEvent.h
 iostream
 -
+
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+iostream
+/Users/chernyakova.run/CLionProjects/untitled57/iostream
 
 /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
 IObserver.h
@@ -91,6 +175,40 @@ iostream
 -
 map
 -
+ILog.h
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp
+Mediator.h
+/Users/chernyakova.run/CLionProjects/untitled57/Mediator.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Mediator.h
+CommandReader.h
+/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.h
+Controller.h
+/Users/chernyakova.run/CLionProjects/untitled57/Controller.h
+Output.h
+/Users/chernyakova.run/CLionProjects/untitled57/Output.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp
+NoOutput.h
+/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
+ILog.h
+/Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Output.cpp
+Output.h
+/Users/chernyakova.run/CLionProjects/untitled57/Output.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Output.h
+iostream
+-
+
+/Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp
+Player.h
+/Users/chernyakova.run/CLionProjects/untitled57/Player.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
 IEvent.h
@@ -100,19 +218,41 @@ Player.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Player.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp
+PlayerFieldObserver.h
+/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
 IObservable.h
 /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Trap.cpp
+Trap.h
+/Users/chernyakova.run/CLionProjects/untitled57/Trap.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Trap.h
 PersonEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp
+Treasure.h
+/Users/chernyakova.run/CLionProjects/untitled57/Treasure.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/Treasure.h
 PersonEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp
+UnavailableFrame.h
+/Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.h
+Field.h
+/Users/chernyakova.run/CLionProjects/untitled57/Field.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.h
 FieldEvent.h
 /Users/chernyakova.run/CLionProjects/untitled57/FieldEvent.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/main.cpp
+Mediator.h
+/Users/chernyakova.run/CLionProjects/untitled57/Mediator.h
 

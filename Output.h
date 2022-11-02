@@ -8,7 +8,8 @@
 class Output{
 public:
     void logger();
-    void startGame();
+    void howPrint();
+    void createField();
     void getHeight();
     void getWidth();
     void errorHeight();

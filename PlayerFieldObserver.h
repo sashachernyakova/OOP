@@ -8,8 +8,9 @@
 class PlayerFieldObserver: public IObserver{
 private:
     IObservable* object;
+    ILog* pr;
 public:
-    PlayerFieldObserver(IObservable* obj);
+    PlayerFieldObserver(IObservable* obj, ILog* pr);
     void update(int m, IObserver::Logger l) override;
 };
 

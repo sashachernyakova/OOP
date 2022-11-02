@@ -1,25 +1,25 @@
 #include "GameObserver.h"
 
-GameObserver::GameObserver(IObservable* obj): object(obj){
+GameObserver::GameObserver(IObservable* obj, ILog* pr): object(obj), pr(pr){
     obj->addObserver(this);
 }
 
 void GameObserver::update(int m, IObserver::Logger l) {
     switch(l){
         case win:
-            std::cout << "Congratulations! You have 5 treasures. You win!" << "\n";
+            pr->print("Congratulations! You have 5 treasures. You win!\n");
             break;
 
         case lose:
-            std::cout << "game over, you lost all your health" << "\n";
+            pr->print("Game over, you lost all your health\n");
             break;
 
         case gameStart:
-            std::cout << "The game starts" << "\n";
+            pr->print("The game starts\n");
             break;
 
         case stopGame:
-            std::cout << "The player decided to stop game" << "\n";
+            pr->print("The player decided to stop game\n");
             break;
 
         default:

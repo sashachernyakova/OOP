@@ -201,6 +201,30 @@ CommandReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CommandReader.cpp.s
 .PHONY : CommandReader.cpp.s
 
+ConsoleOutput.o: ConsoleOutput.cpp.o
+.PHONY : ConsoleOutput.o
+
+# target to build an object file
+ConsoleOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o
+.PHONY : ConsoleOutput.cpp.o
+
+ConsoleOutput.i: ConsoleOutput.cpp.i
+.PHONY : ConsoleOutput.i
+
+# target to preprocess a source file
+ConsoleOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i
+.PHONY : ConsoleOutput.cpp.i
+
+ConsoleOutput.s: ConsoleOutput.cpp.s
+.PHONY : ConsoleOutput.s
+
+# target to generate assembly for a file
+ConsoleOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s
+.PHONY : ConsoleOutput.cpp.s
+
 Controller.o: Controller.cpp.o
 .PHONY : Controller.o
 
@@ -321,6 +345,54 @@ FieldView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FieldView.cpp.s
 .PHONY : FieldView.cpp.s
 
+FileConsoleOutput.o: FileConsoleOutput.cpp.o
+.PHONY : FileConsoleOutput.o
+
+# target to build an object file
+FileConsoleOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o
+.PHONY : FileConsoleOutput.cpp.o
+
+FileConsoleOutput.i: FileConsoleOutput.cpp.i
+.PHONY : FileConsoleOutput.i
+
+# target to preprocess a source file
+FileConsoleOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i
+.PHONY : FileConsoleOutput.cpp.i
+
+FileConsoleOutput.s: FileConsoleOutput.cpp.s
+.PHONY : FileConsoleOutput.s
+
+# target to generate assembly for a file
+FileConsoleOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s
+.PHONY : FileConsoleOutput.cpp.s
+
+FileOutput.o: FileOutput.cpp.o
+.PHONY : FileOutput.o
+
+# target to build an object file
+FileOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.o
+.PHONY : FileOutput.cpp.o
+
+FileOutput.i: FileOutput.cpp.i
+.PHONY : FileOutput.i
+
+# target to preprocess a source file
+FileOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.i
+.PHONY : FileOutput.cpp.i
+
+FileOutput.s: FileOutput.cpp.s
+.PHONY : FileOutput.s
+
+# target to generate assembly for a file
+FileOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.s
+.PHONY : FileOutput.cpp.s
+
 FromStart.o: FromStart.cpp.o
 .PHONY : FromStart.o
 
@@ -392,6 +464,30 @@ Mediator.s: Mediator.cpp.s
 Mediator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator.cpp.s
 .PHONY : Mediator.cpp.s
+
+NoOutput.o: NoOutput.cpp.o
+.PHONY : NoOutput.o
+
+# target to build an object file
+NoOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.o
+.PHONY : NoOutput.cpp.o
+
+NoOutput.i: NoOutput.cpp.i
+.PHONY : NoOutput.i
+
+# target to preprocess a source file
+NoOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.i
+.PHONY : NoOutput.cpp.i
+
+NoOutput.s: NoOutput.cpp.s
+.PHONY : NoOutput.s
+
+# target to generate assembly for a file
+NoOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.s
+.PHONY : NoOutput.cpp.s
 
 Output.o: Output.cpp.o
 .PHONY : Output.o
@@ -579,6 +675,9 @@ help:
 	@echo "... CommandReader.o"
 	@echo "... CommandReader.i"
 	@echo "... CommandReader.s"
+	@echo "... ConsoleOutput.o"
+	@echo "... ConsoleOutput.i"
+	@echo "... ConsoleOutput.s"
 	@echo "... Controller.o"
 	@echo "... Controller.i"
 	@echo "... Controller.s"
@@ -594,6 +693,12 @@ help:
 	@echo "... FieldView.o"
 	@echo "... FieldView.i"
 	@echo "... FieldView.s"
+	@echo "... FileConsoleOutput.o"
+	@echo "... FileConsoleOutput.i"
+	@echo "... FileConsoleOutput.s"
+	@echo "... FileOutput.o"
+	@echo "... FileOutput.i"
+	@echo "... FileOutput.s"
 	@echo "... FromStart.o"
 	@echo "... FromStart.i"
 	@echo "... FromStart.s"
@@ -603,6 +708,9 @@ help:
 	@echo "... Mediator.o"
 	@echo "... Mediator.i"
 	@echo "... Mediator.s"
+	@echo "... NoOutput.o"
+	@echo "... NoOutput.i"
+	@echo "... NoOutput.s"
 	@echo "... Output.o"
 	@echo "... Output.i"
 	@echo "... Output.s"

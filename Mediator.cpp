@@ -2,11 +2,13 @@
 
 Mediator::Mediator(): reader(CommandReader()), output(Output()){
     output.logger();
-    txt3 = std::stoi(reader.read());
-    output.startGame();
+    log = std::stoi(reader.read());
+    output.howPrint();
+    print = std::stoi(reader.read());
+    output.createField();
     txt1 = reader.read();
     if (txt1 == "1"){
-        controller = new Controller(txt3);
+        controller = new Controller(log, print);
     } else if (txt1 == "2"){
         output.getHeight();
         txt1 = reader.read();
@@ -20,11 +22,12 @@ Mediator::Mediator(): reader(CommandReader()), output(Output()){
             controller->errorW();
             txt2 = "10";
         }
-        controller = new Controller(txt3, std::stoi(txt1), std::stoi(txt2));
+        controller = new Controller(log, print, std::stoi(txt1), std::stoi(txt2));
     } else {
         controller->errorNumber();
-        controller = new Controller(txt3);
+        controller = new Controller(log, print);
     }
+    controller->start();
     output.gameRules();
     while(5 == 5){
         txt1 = reader.read();

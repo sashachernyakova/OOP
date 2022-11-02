@@ -300,6 +300,58 @@ CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp -o CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s
 
+CMakeFiles/untitled57.dir/NoOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/NoOutput.cpp.o: ../NoOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled57.dir/NoOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/NoOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp
+
+CMakeFiles/untitled57.dir/NoOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/NoOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp > CMakeFiles/untitled57.dir/NoOutput.cpp.i
+
+CMakeFiles/untitled57.dir/NoOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/NoOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp -o CMakeFiles/untitled57.dir/NoOutput.cpp.s
+
+CMakeFiles/untitled57.dir/FileOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/FileOutput.cpp.o: ../FileOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/untitled57.dir/FileOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FileOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp
+
+CMakeFiles/untitled57.dir/FileOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FileOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp > CMakeFiles/untitled57.dir/FileOutput.cpp.i
+
+CMakeFiles/untitled57.dir/FileOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FileOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp -o CMakeFiles/untitled57.dir/FileOutput.cpp.s
+
+CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o: ../ConsoleOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp
+
+CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp > CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i
+
+CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp -o CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s
+
+CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o: ../FileConsoleOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp
+
+CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp > CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i
+
+CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp -o CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s
+
 # Object files for target untitled57
 untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/main.cpp.o" \
@@ -319,7 +371,11 @@ untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/Output.cpp.o" \
 "CMakeFiles/untitled57.dir/ErrorObserver.cpp.o" \
 "CMakeFiles/untitled57.dir/GameObserver.cpp.o" \
-"CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o"
+"CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o" \
+"CMakeFiles/untitled57.dir/NoOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/FileOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o"
 
 # External object files for target untitled57
 untitled57_EXTERNAL_OBJECTS =
@@ -342,9 +398,13 @@ untitled57: CMakeFiles/untitled57.dir/Output.cpp.o
 untitled57: CMakeFiles/untitled57.dir/ErrorObserver.cpp.o
 untitled57: CMakeFiles/untitled57.dir/GameObserver.cpp.o
 untitled57: CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o
+untitled57: CMakeFiles/untitled57.dir/NoOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/FileOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o
 untitled57: CMakeFiles/untitled57.dir/build.make
 untitled57: CMakeFiles/untitled57.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable untitled57"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable untitled57"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled57.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

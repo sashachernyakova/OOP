@@ -12,7 +12,8 @@ class Mediator{
     CommandReader reader;
     std::string txt1;
     std::string txt2;
-    int txt3;
+    int log;
+    int print;
     Output output;
 public:
     Mediator();

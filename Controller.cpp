@@ -1,18 +1,27 @@
 #include "Controller.h"
 
-Controller::Controller(int log, int y, int x): log(log){
+Controller::Controller(int log, int print, int y, int x): log(log), pr(print){
     alex = new Player();
     field = new Field(y, x);
     fieldView = new FieldView(field);
     fieldView->printField();
-    if(log == 1){
-        o = (PlayerFieldObserver*)(new PlayerFieldObserver(field));
-    } else if(log == 2){
-        o = (GameObserver*)(new GameObserver(field));
+    if(pr == 1){
+        l = (NoOutput*)(new NoOutput());
+    } else if(pr == 2){
+        l = (ConsoleOutput*)(new ConsoleOutput());
+    } else if(pr == 3){
+        l = (FileOutput*)(new FileOutput());;
     } else{
-        o = (ErrorObserver*)(new ErrorObserver(field));
+        l = (FileConsoleOutput*)(new FileConsoleOutput());
     }
 
+    if(log == 1){
+        o = (PlayerFieldObserver*)(new PlayerFieldObserver(field, l));
+    } else if(log == 2){
+        o = (GameObserver*)(new GameObserver(field, l));
+    } else{
+        o = (ErrorObserver*)(new ErrorObserver(field, l));
+    }
 }
 
 int Controller::changePlayerPosition (Field::Action direction, int step) {
