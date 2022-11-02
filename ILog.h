@@ -2,10 +2,11 @@
 #define UNTITLED57_ILOG_H
 
 #include "iostream"
+#include "Message.h"
 
 class ILog{
 public:
-    virtual void print(std::string str) = 0;
+    virtual void print(Message& message) = 0;
 };
 
 #endif

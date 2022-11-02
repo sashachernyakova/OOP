@@ -16,7 +16,8 @@ CMakeFiles/untitled57.dir/CommandReader.cpp.o: \
 CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o: \
  ../ConsoleOutput.cpp \
  ../ConsoleOutput.h \
- ../ILog.h
+ ../ILog.h \
+ ../Message.h
 CMakeFiles/untitled57.dir/Controller.cpp.o: \
  ../Cell.h \
  ../CellView.h \
@@ -36,6 +37,7 @@ CMakeFiles/untitled57.dir/Controller.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../NoOutput.h \
  ../PersonEvent.h \
  ../Player.h \
@@ -54,7 +56,8 @@ CMakeFiles/untitled57.dir/ErrorObserver.cpp.o: \
  ../ErrorObserver.h \
  ../ILog.h \
  ../IObservable.h \
- ../IObserver.h
+ ../IObserver.h \
+ ../Message.h
 CMakeFiles/untitled57.dir/Field.cpp.o: \
  ../Cell.h \
  ../Enemy.h \
@@ -68,6 +71,7 @@ CMakeFiles/untitled57.dir/Field.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../PersonEvent.h \
  ../Player.h \
  ../PlayerFieldObserver.h \
@@ -89,6 +93,7 @@ CMakeFiles/untitled57.dir/FieldView.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../PersonEvent.h \
  ../Player.h \
  ../PlayerFieldObserver.h \
@@ -98,11 +103,13 @@ CMakeFiles/untitled57.dir/FieldView.cpp.o: \
 CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o: \
  ../FIleConsoleOutput.h \
  ../FileConsoleOutput.cpp \
- ../ILog.h
+ ../ILog.h \
+ ../Message.h
 CMakeFiles/untitled57.dir/FileOutput.cpp.o: \
  ../FileOutput.cpp \
  ../FileOutput.h \
- ../ILog.h
+ ../ILog.h \
+ ../Message.h
 CMakeFiles/untitled57.dir/FromStart.cpp.o: \
  ../Cell.h \
  ../Enemy.h \
@@ -116,6 +123,7 @@ CMakeFiles/untitled57.dir/FromStart.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../PersonEvent.h \
  ../Player.h \
  ../PlayerFieldObserver.h \
@@ -127,7 +135,8 @@ CMakeFiles/untitled57.dir/GameObserver.cpp.o: \
  ../GameObserver.h \
  ../ILog.h \
  ../IObservable.h \
- ../IObserver.h
+ ../IObserver.h \
+ ../Message.h
 CMakeFiles/untitled57.dir/Mediator.cpp.o: \
  ../Cell.h \
  ../CellView.h \
@@ -149,6 +158,7 @@ CMakeFiles/untitled57.dir/Mediator.cpp.o: \
  ../IObserver.h \
  ../Mediator.cpp \
  ../Mediator.h \
+ ../Message.h \
  ../NoOutput.h \
  ../Output.h \
  ../PersonEvent.h \
@@ -157,8 +167,12 @@ CMakeFiles/untitled57.dir/Mediator.cpp.o: \
  ../Trap.h \
  ../Treasure.h \
  ../UnavailableFrame.h
+CMakeFiles/untitled57.dir/Message.cpp.o: \
+ ../Message.cpp \
+ ../Message.h
 CMakeFiles/untitled57.dir/NoOutput.cpp.o: \
  ../ILog.h \
+ ../Message.h \
  ../NoOutput.cpp \
  ../NoOutput.h
 CMakeFiles/untitled57.dir/Output.cpp.o: \
@@ -171,6 +185,7 @@ CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../PlayerFieldObserver.cpp \
  ../PlayerFieldObserver.h
 CMakeFiles/untitled57.dir/Trap.cpp.o: \
@@ -197,6 +212,7 @@ CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o: \
  ../ILog.h \
  ../IObservable.h \
  ../IObserver.h \
+ ../Message.h \
  ../PersonEvent.h \
  ../Player.h \
  ../PlayerFieldObserver.h \
@@ -224,6 +240,7 @@ CMakeFiles/untitled57.dir/main.cpp.o: \
  ../IObservable.h \
  ../IObserver.h \
  ../Mediator.h \
+ ../Message.h \
  ../NoOutput.h \
  ../Output.h \
  ../PersonEvent.h \

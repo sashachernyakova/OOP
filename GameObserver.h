@@ -9,6 +9,8 @@ class GameObserver: public IObserver{
 private:
     IObservable* object;
     ILog* pr;
+    Message message;
+    Message::LEVEL type;
 public:
     GameObserver(IObservable* obj, ILog* l);
     void update(int m, IObserver::Logger l) override;

@@ -17,6 +17,7 @@ CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/Controller.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/CellView.h
@@ -36,6 +37,7 @@ CMakeFiles/untitled57.dir/Controller.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player.h
@@ -55,6 +57,7 @@ CMakeFiles/untitled57.dir/ErrorObserver.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/Field.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/Enemy.h
@@ -68,6 +71,7 @@ CMakeFiles/untitled57.dir/Field.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
@@ -89,6 +93,7 @@ CMakeFiles/untitled57.dir/FieldView.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
@@ -99,10 +104,12 @@ CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/FileOutput.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/FromStart.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/Enemy.h
@@ -116,6 +123,7 @@ CMakeFiles/untitled57.dir/FromStart.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
@@ -128,6 +136,7 @@ CMakeFiles/untitled57.dir/GameObserver.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/Mediator.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/CellView.h
@@ -149,6 +158,7 @@ CMakeFiles/untitled57.dir/Mediator.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Output.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
@@ -157,8 +167,12 @@ CMakeFiles/untitled57.dir/Mediator.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Trap.h
  /Users/chernyakova.run/CLionProjects/untitled57/Treasure.h
  /Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.h
+CMakeFiles/untitled57.dir/Message.cpp.o
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.cpp
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 CMakeFiles/untitled57.dir/NoOutput.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
 CMakeFiles/untitled57.dir/Output.cpp.o
@@ -171,6 +185,7 @@ CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
 CMakeFiles/untitled57.dir/Trap.cpp.o
@@ -197,6 +212,7 @@ CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
@@ -224,6 +240,7 @@ CMakeFiles/untitled57.dir/main.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
  /Users/chernyakova.run/CLionProjects/untitled57/IObserver.h
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Output.h
  /Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h

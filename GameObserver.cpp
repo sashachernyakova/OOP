@@ -2,28 +2,32 @@
 
 GameObserver::GameObserver(IObservable* obj, ILog* pr): object(obj), pr(pr){
     obj->addObserver(this);
+    type = Message::GAME;
 }
 
 void GameObserver::update(int m, IObserver::Logger l) {
     switch(l){
         case win:
-            pr->print("Congratulations! You have 5 treasures. You win!\n");
+            message = Message(type, "Congratulations! You have 5 treasures. You win!\n");
+            pr->print(message);
             break;
 
         case lose:
-            pr->print("Game over, you lost all your health\n");
+            message = Message(type, "Game over, you lost all your health\n");
+            pr->print(message);
             break;
 
         case gameStart:
-            pr->print("The game starts\n");
+            message = Message(type, "The game starts\n");
+            pr->print(message);
             break;
 
         case stopGame:
-            pr->print("The player decided to stop game\n");
+            message = Message(type, "The player decided to stop game\n");
+            pr->print(message);
             break;
 
         default:
             break;
     }
-
 }

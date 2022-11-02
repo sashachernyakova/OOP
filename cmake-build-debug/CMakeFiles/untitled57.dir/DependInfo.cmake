@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/FromStart.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/GameObserver.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Mediator.cpp.o"
+  "/Users/chernyakova.run/CLionProjects/untitled57/Message.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Message.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/NoOutput.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/Output.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Output.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/PLayer.cpp.o"

@@ -1,5 +1,5 @@
 #include "NoOutput.h"
 
-void NoOutput::print(std::string str) {
+void NoOutput::print(Message& message) {
 
 }

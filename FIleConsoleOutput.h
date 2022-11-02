@@ -5,7 +5,7 @@
 
 class FileConsoleOutput: public ILog{
 public:
-    void print(std::string str) override;
+    void print(Message& message) override;
 };
 
 #endif

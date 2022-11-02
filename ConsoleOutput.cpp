@@ -1,5 +1,5 @@
 #include "ConsoleOutput.h"
 
-void ConsoleOutput::print(std::string str) {
-    std::cout << str << "\n";
+void ConsoleOutput::print(Message& message) {
+    std::cout << message << "\n";
 }

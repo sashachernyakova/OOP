@@ -2,32 +2,37 @@
 
 ErrorObserver::ErrorObserver(IObservable* obj, ILog* pr): object(obj), pr(pr){
     obj->addObserver(this);
+    type = Message::ERROR;
 }
 
 void ErrorObserver::update(int m, IObserver::Logger l) {
     switch(l){
         case someSteps:
-            pr->print("The player have gone " + std::to_string(m) + " steps\n");
+            message = Message(type, "The player have gone " + std::to_string(m) + " steps\n");
+            pr->print(message);
             break;
 
         case errorHeight:
-            pr->print("Height can not be negative. The height is set with default size 10.\n");
+            message = Message(type, "Height can not be negative. The height is set with default size 10.\n");
+            pr->print(message);
             break;
 
         case errorWidth:
-            pr->print("Width can not be negative. The width is set with default size 10.\n");
+            message = Message(type, "Width can not be negative. The width is set with default size 10.\n");
+            pr->print(message);
             break;
 
         case errorDirection:
-            pr->print("You entered error direction. You can enter: right, left, up, down\n");
+            message = Message(type, "You entered error direction. You can enter: right, left, up, down\n");
+            pr->print(message);
             break;
 
         case errorStartNumber:
-            pr->print("You can not enter this number. The field is set with default sizes: 10x10\n");
+            message = Message(type, "You can not enter this number. The field is set with default sizes: 10x10\n");
+            pr->print(message);
             break;
 
         default:
             break;
     }
-
 }

@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled57.dir/FromStart.cpp.o"
   "CMakeFiles/untitled57.dir/GameObserver.cpp.o"
   "CMakeFiles/untitled57.dir/Mediator.cpp.o"
+  "CMakeFiles/untitled57.dir/Message.cpp.o"
   "CMakeFiles/untitled57.dir/NoOutput.cpp.o"
   "CMakeFiles/untitled57.dir/Output.cpp.o"
   "CMakeFiles/untitled57.dir/PLayer.cpp.o"

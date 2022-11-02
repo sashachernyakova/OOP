@@ -9,6 +9,8 @@ class ErrorObserver: public IObserver{
 private:
     IObservable* object;
     ILog* pr;
+    Message message;
+    Message::LEVEL type;
 public:
     ErrorObserver(IObservable* obj, ILog* p);
     void update(int m, IObserver::Logger l) override;
