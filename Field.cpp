@@ -207,10 +207,6 @@ void Field::addObserver(IObserver *o) {
     observers.push_back(o);
 }
 
-void Field::removeObserver(IObserver *o) {
-    observers.erase(remove(observers.begin(), observers.end(), o), observers.end());
-}
-
 void Field::notify(int m, IObserver::Logger l) {
     for(auto o: observers){
         o->update(m, l);

@@ -14,6 +14,7 @@ private:
 public:
     ErrorObserver(IObservable* obj, ILog* p);
     void update(int m, IObserver::Logger l) override;
+    ~ErrorObserver();
 };
 
 

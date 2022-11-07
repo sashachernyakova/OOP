@@ -31,3 +31,8 @@ void GameObserver::update(int m, IObserver::Logger l) {
             break;
     }
 }
+
+GameObserver::~GameObserver() {
+    delete pr;
+    delete object;
+}

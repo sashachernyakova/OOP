@@ -30,6 +30,6 @@ Message::LEVEL Message::getType() {
 }
 
 std::ostream &operator<<(std::ostream &os, Message &message) {
-    os << message.get_pref() + " " + message.get_message() ;
+    os << message.get_pref() + " " + message.get_message()   ;
     return os;
 }

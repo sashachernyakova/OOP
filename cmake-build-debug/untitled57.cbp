@@ -239,6 +239,12 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/main.cpp">
 			<Option target="untitled57"/>
 		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.h">
+			<Option target="untitled57"/>
+		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

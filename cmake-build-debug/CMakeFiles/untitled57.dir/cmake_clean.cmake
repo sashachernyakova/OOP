@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled57.dir/Treasure.cpp.o"
   "CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o"
   "CMakeFiles/untitled57.dir/main.cpp.o"
+  "CMakeFiles/untitled57.dir/startInfoReader.cpp.o"
   "untitled57"
   "untitled57.pdb"
 )

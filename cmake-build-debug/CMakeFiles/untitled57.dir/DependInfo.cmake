@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Treasure.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/main.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/main.cpp.o"
+  "/Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/startInfoReader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

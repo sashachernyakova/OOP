@@ -32,5 +32,10 @@ void PlayerFieldObserver::update(int m, IObserver::Logger l) {
     }
 }
 
+PlayerFieldObserver::~PlayerFieldObserver() {
+    delete pr;
+    delete object;
+}
+
 
 

@@ -49,7 +49,6 @@ public:
     void makeFrame();
     void setPersonToStart();
     void addObserver(IObserver* o) override;
-    void removeObserver(IObserver* o) override;
     void notify(int m, IObserver::Logger l) override;
     void stopGame();
     void gameStart();

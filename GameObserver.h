@@ -14,6 +14,7 @@ private:
 public:
     GameObserver(IObservable* obj, ILog* l);
     void update(int m, IObserver::Logger l) override;
+    ~GameObserver();
 };
 
 #endif

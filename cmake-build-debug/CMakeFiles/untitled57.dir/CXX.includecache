@@ -14,14 +14,6 @@ ErrorObserver.h
 IObservable.h
 /Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
 
-/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp
-GameObserver.h
-/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.h
-
-/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.h
-IObservable.h
-/Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
-
 /Users/chernyakova.run/CLionProjects/untitled57/ILog.h
 iostream
 /Users/chernyakova.run/CLionProjects/untitled57/iostream
@@ -43,12 +35,4 @@ ILog.h
 /Users/chernyakova.run/CLionProjects/untitled57/Message.h
 iostream
 -
-
-/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp
-PlayerFieldObserver.h
-/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
-
-/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h
-IObservable.h
-/Users/chernyakova.run/CLionProjects/untitled57/IObservable.h
 

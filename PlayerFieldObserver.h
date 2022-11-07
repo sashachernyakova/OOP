@@ -14,6 +14,7 @@ private:
 public:
     PlayerFieldObserver(IObservable* obj, ILog* pr);
     void update(int m, IObserver::Logger l) override;
+    ~PlayerFieldObserver();
 };
 
 #endif

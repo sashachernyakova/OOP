@@ -8,7 +8,7 @@ ErrorObserver::ErrorObserver(IObservable* obj, ILog* pr): object(obj), pr(pr){
 void ErrorObserver::update(int m, IObserver::Logger l) {
     switch(l){
         case someSteps:
-            message = Message(type, "The player have gone " + std::to_string(m) + " steps\n");
+            message = Message(type, "The player have gone " + std::to_string(m) + " steps. Next cell is unavailable\n");
             pr->print(message);
             break;
 
@@ -35,4 +35,9 @@ void ErrorObserver::update(int m, IObserver::Logger l) {
         default:
             break;
     }
+}
+
+ErrorObserver::~ErrorObserver() {
+    delete pr;
+    delete object;
 }

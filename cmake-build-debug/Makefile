@@ -681,6 +681,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+startInfoReader.o: startInfoReader.cpp.o
+.PHONY : startInfoReader.o
+
+# target to build an object file
+startInfoReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.o
+.PHONY : startInfoReader.cpp.o
+
+startInfoReader.i: startInfoReader.cpp.i
+.PHONY : startInfoReader.i
+
+# target to preprocess a source file
+startInfoReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.i
+.PHONY : startInfoReader.cpp.i
+
+startInfoReader.s: startInfoReader.cpp.s
+.PHONY : startInfoReader.s
+
+# target to generate assembly for a file
+startInfoReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.s
+.PHONY : startInfoReader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -759,6 +783,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... startInfoReader.o"
+	@echo "... startInfoReader.i"
+	@echo "... startInfoReader.s"
 .PHONY : help
 
 
