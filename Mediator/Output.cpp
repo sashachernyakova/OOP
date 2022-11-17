@@ -17,7 +17,7 @@ void Output::getWidth() {
 }
 
 void Output::gameRules() {
-    std::cout << "You can start moving the player. Input format: <number of steps><enter><action>\nTo find out the total number of steps, enter steps\n";
+    std::cout << "You can start moving the player. Reader format: <number of steps> <action>\n";
 }
 
 void Output::howPrint() {

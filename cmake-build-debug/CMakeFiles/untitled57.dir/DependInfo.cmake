@@ -29,7 +29,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Output/Message.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Player/PLayer.cpp.o"
-  "/Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o"
+  "/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o"
+  "/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o"
   "/Users/chernyakova.run/CLionProjects/untitled57/main.cpp" "/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles/untitled57.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

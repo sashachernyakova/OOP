@@ -3,13 +3,16 @@
 
 #pragma once
 
-#include "../Reader/CommandReader.h"
+#include "../Reader/ConsoleReader.h"
 #include "../Controller/Controller.h"
 #include "Output.h"
+#include "../Reader/Reader.h"
+#include "../Reader/FileReader.h"
 
 class Mediator{
     Controller* controller;
-    CommandReader reader;
+    ConsoleReader reader;
+    Reader* moveReader;
     std::string txt1;
     std::string txt2;
     std::string log;

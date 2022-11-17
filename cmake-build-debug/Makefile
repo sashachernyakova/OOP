@@ -633,29 +633,53 @@ Player/PLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Player/PLayer.cpp.s
 .PHONY : Player/PLayer.cpp.s
 
-Reader/CommandReader.o: Reader/CommandReader.cpp.o
-.PHONY : Reader/CommandReader.o
+Reader/ConsoleReader.o: Reader/ConsoleReader.cpp.o
+.PHONY : Reader/ConsoleReader.o
 
 # target to build an object file
-Reader/CommandReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o
-.PHONY : Reader/CommandReader.cpp.o
+Reader/ConsoleReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o
+.PHONY : Reader/ConsoleReader.cpp.o
 
-Reader/CommandReader.i: Reader/CommandReader.cpp.i
-.PHONY : Reader/CommandReader.i
+Reader/ConsoleReader.i: Reader/ConsoleReader.cpp.i
+.PHONY : Reader/ConsoleReader.i
 
 # target to preprocess a source file
-Reader/CommandReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i
-.PHONY : Reader/CommandReader.cpp.i
+Reader/ConsoleReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.i
+.PHONY : Reader/ConsoleReader.cpp.i
 
-Reader/CommandReader.s: Reader/CommandReader.cpp.s
-.PHONY : Reader/CommandReader.s
+Reader/ConsoleReader.s: Reader/ConsoleReader.cpp.s
+.PHONY : Reader/ConsoleReader.s
 
 # target to generate assembly for a file
-Reader/CommandReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s
-.PHONY : Reader/CommandReader.cpp.s
+Reader/ConsoleReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.s
+.PHONY : Reader/ConsoleReader.cpp.s
+
+Reader/FileReader.o: Reader/FileReader.cpp.o
+.PHONY : Reader/FileReader.o
+
+# target to build an object file
+Reader/FileReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o
+.PHONY : Reader/FileReader.cpp.o
+
+Reader/FileReader.i: Reader/FileReader.cpp.i
+.PHONY : Reader/FileReader.i
+
+# target to preprocess a source file
+Reader/FileReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.i
+.PHONY : Reader/FileReader.cpp.i
+
+Reader/FileReader.s: Reader/FileReader.cpp.s
+.PHONY : Reader/FileReader.s
+
+# target to generate assembly for a file
+Reader/FileReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.s
+.PHONY : Reader/FileReader.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -753,9 +777,12 @@ help:
 	@echo "... Player/PLayer.o"
 	@echo "... Player/PLayer.i"
 	@echo "... Player/PLayer.s"
-	@echo "... Reader/CommandReader.o"
-	@echo "... Reader/CommandReader.i"
-	@echo "... Reader/CommandReader.s"
+	@echo "... Reader/ConsoleReader.o"
+	@echo "... Reader/ConsoleReader.i"
+	@echo "... Reader/ConsoleReader.s"
+	@echo "... Reader/FileReader.o"
+	@echo "... Reader/FileReader.i"
+	@echo "... Reader/FileReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

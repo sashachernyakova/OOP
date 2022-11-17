@@ -1,6 +1,9 @@
 #include "Mediator.h"
 
-Mediator::Mediator(): reader(CommandReader()), output(Output()){
+Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
+    std::ifstream in("navigation.txt");
+    //moveReader = new FileReader(&in);
+    moveReader = new ConsoleReader();
     output.logger();
     log = reader.read();
     output.howPrint();
@@ -34,28 +37,35 @@ Mediator::Mediator(): reader(CommandReader()), output(Output()){
     }
     controller->start();
     output.gameRules();
-    while(5 == 5){
-        txt1 = reader.read();
-        if (txt1 == "steps"){
-            controller->steps();
-        }else if (txt1 == "stop"){
+    txt1 = moveReader->read();
+    while(5 == 5) {
+        if (txt1 == "stop") {
             controller->stop();
             break;
-        }else{
-            txt2 = reader.read();
-            if (controller->isDirection(txt2 )){
-                if(controller->movement(std::stoi(txt1), controller->getAction(txt2)) == 1 ){
+        } else {
+            std::vector <std::string> out;
+            size_t start;
+            size_t end = 0;
+            const char delim = ' ';
+            while ((start = txt1.find_first_not_of(delim, end)) != std::string::npos) {
+                end = txt1.find(delim, start);
+                out.push_back(txt1.substr(start, end - start));
+            }
+            if (controller->isDirection(out[1])) {
+                if (controller->movement(std::stoi(out[0]), controller->getAction(out[1])) == 1) {
                     return;
                 }
             } else {
                 controller->errorD();
             }
         }
+        txt1 = moveReader->read();
     }
 }
 
 Mediator::~Mediator(){
     delete controller;
+    delete moveReader;
 }
 
 

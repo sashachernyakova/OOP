@@ -157,18 +157,18 @@ CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp -o CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s
 
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o: ../Reader/CommandReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o: ../Reader/ConsoleReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp
 
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp > CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp > CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.i
 
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp -o CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp -o CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.s
 
 CMakeFiles/untitled57.dir/Controller/Controller.cpp.o: CMakeFiles/untitled57.dir/flags.make
 CMakeFiles/untitled57.dir/Controller/Controller.cpp.o: ../Controller/Controller.cpp
@@ -365,6 +365,19 @@ CMakeFiles/untitled57.dir/Output/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/Message.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp -o CMakeFiles/untitled57.dir/Output/Message.cpp.s
 
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o: ../Reader/FileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp
+
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Reader/FileReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp > CMakeFiles/untitled57.dir/Reader/FileReader.cpp.i
+
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Reader/FileReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp -o CMakeFiles/untitled57.dir/Reader/FileReader.cpp.s
+
 # Object files for target untitled57
 untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/main.cpp.o" \
@@ -374,7 +387,7 @@ untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/Field/FieldView.cpp.o" \
 "CMakeFiles/untitled57.dir/Player/PLayer.cpp.o" \
 "CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o" \
-"CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o" \
+"CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o" \
 "CMakeFiles/untitled57.dir/Controller/Controller.cpp.o" \
 "CMakeFiles/untitled57.dir/Events/Enemy.cpp.o" \
 "CMakeFiles/untitled57.dir/Events/Trap.cpp.o" \
@@ -389,7 +402,8 @@ untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o" \
 "CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o" \
 "CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o" \
-"CMakeFiles/untitled57.dir/Output/Message.cpp.o"
+"CMakeFiles/untitled57.dir/Output/Message.cpp.o" \
+"CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o"
 
 # External object files for target untitled57
 untitled57_EXTERNAL_OBJECTS =
@@ -401,7 +415,7 @@ untitled57: CMakeFiles/untitled57.dir/Field/Field.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Field/FieldView.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Player/PLayer.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Controller/Controller.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Events/Enemy.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Events/Trap.cpp.o
@@ -417,9 +431,10 @@ untitled57: CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o
 untitled57: CMakeFiles/untitled57.dir/Output/Message.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o
 untitled57: CMakeFiles/untitled57.dir/build.make
 untitled57: CMakeFiles/untitled57.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable untitled57"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable untitled57"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled57.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

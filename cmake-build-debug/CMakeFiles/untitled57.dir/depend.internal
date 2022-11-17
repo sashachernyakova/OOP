@@ -166,7 +166,9 @@ CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
 CMakeFiles/untitled57.dir/Mediator/Output.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.h
@@ -217,9 +219,14 @@ CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o
 CMakeFiles/untitled57.dir/Player/PLayer.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.h
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
 CMakeFiles/untitled57.dir/main.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h
@@ -248,5 +255,7 @@ CMakeFiles/untitled57.dir/main.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.h
  /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
  /Users/chernyakova.run/CLionProjects/untitled57/main.cpp

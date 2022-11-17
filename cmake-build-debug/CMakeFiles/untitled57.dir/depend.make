@@ -166,7 +166,9 @@ CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o: \
  ../Output/Message.h \
  ../Output/NoOutput.h \
  ../Player/Player.h \
- ../Reader/CommandReader.h
+ ../Reader/ConsoleReader.h \
+ ../Reader/FileReader.h \
+ ../Reader/Reader.h
 CMakeFiles/untitled57.dir/Mediator/Output.cpp.o: \
  ../Mediator/Output.cpp \
  ../Mediator/Output.h
@@ -217,9 +219,14 @@ CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o: \
 CMakeFiles/untitled57.dir/Player/PLayer.cpp.o: \
  ../Player/PLayer.cpp \
  ../Player/Player.h
-CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o: \
- ../Reader/CommandReader.cpp \
- ../Reader/CommandReader.h
+CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o: \
+ ../Reader/ConsoleReader.cpp \
+ ../Reader/ConsoleReader.h \
+ ../Reader/Reader.h
+CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o: \
+ ../Reader/FileReader.cpp \
+ ../Reader/FileReader.h \
+ ../Reader/Reader.h
 CMakeFiles/untitled57.dir/main.cpp.o: \
  ../Cell/Cell.h \
  ../Cell/CellView.h \
@@ -248,5 +255,7 @@ CMakeFiles/untitled57.dir/main.cpp.o: \
  ../Output/Message.h \
  ../Output/NoOutput.h \
  ../Player/Player.h \
- ../Reader/CommandReader.h \
+ ../Reader/ConsoleReader.h \
+ ../Reader/FileReader.h \
+ ../Reader/Reader.h \
  ../main.cpp

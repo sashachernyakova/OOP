@@ -91,6 +91,7 @@ int Controller::movement(int steps, Field::Action action){
     }else{
         fieldView->changeFieldView(field);
         fieldView->printField();
+        std::cout << "\n";
         return 0;
     }
 }

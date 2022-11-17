@@ -92,9 +92,6 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleControl.h">
-			<Option target="untitled57"/>
-		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp">
 			<Option target="untitled57"/>
 		</Unit>
@@ -150,9 +147,6 @@
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.h">
-			<Option target="untitled57"/>
-		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IControl.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp">
@@ -236,10 +230,19 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/main.cpp">
