@@ -79,362 +79,347 @@ CMakeFiles/untitled57.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/main.cpp -o CMakeFiles/untitled57.dir/main.cpp.s
 
-CMakeFiles/untitled57.dir/Cell.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Cell.cpp.o: ../Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled57.dir/Cell.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Cell.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Cell.cpp
-
-CMakeFiles/untitled57.dir/Cell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Cell.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Cell.cpp > CMakeFiles/untitled57.dir/Cell.cpp.i
-
-CMakeFiles/untitled57.dir/Cell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Cell.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Cell.cpp -o CMakeFiles/untitled57.dir/Cell.cpp.s
-
-CMakeFiles/untitled57.dir/CellView.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/CellView.cpp.o: ../CellView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled57.dir/CellView.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/CellView.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/CellView.cpp
-
-CMakeFiles/untitled57.dir/CellView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/CellView.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/CellView.cpp > CMakeFiles/untitled57.dir/CellView.cpp.i
-
-CMakeFiles/untitled57.dir/CellView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/CellView.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/CellView.cpp -o CMakeFiles/untitled57.dir/CellView.cpp.s
-
-CMakeFiles/untitled57.dir/Field.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Field.cpp.o: ../Field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled57.dir/Field.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Field.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Field.cpp
-
-CMakeFiles/untitled57.dir/Field.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Field.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Field.cpp > CMakeFiles/untitled57.dir/Field.cpp.i
-
-CMakeFiles/untitled57.dir/Field.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Field.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Field.cpp -o CMakeFiles/untitled57.dir/Field.cpp.s
-
-CMakeFiles/untitled57.dir/FieldView.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/FieldView.cpp.o: ../FieldView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled57.dir/FieldView.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FieldView.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FieldView.cpp
-
-CMakeFiles/untitled57.dir/FieldView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FieldView.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FieldView.cpp > CMakeFiles/untitled57.dir/FieldView.cpp.i
-
-CMakeFiles/untitled57.dir/FieldView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FieldView.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FieldView.cpp -o CMakeFiles/untitled57.dir/FieldView.cpp.s
-
-CMakeFiles/untitled57.dir/PLayer.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/PLayer.cpp.o: ../PLayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled57.dir/PLayer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/PLayer.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp
-
-CMakeFiles/untitled57.dir/PLayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/PLayer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp > CMakeFiles/untitled57.dir/PLayer.cpp.i
-
-CMakeFiles/untitled57.dir/PLayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/PLayer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp -o CMakeFiles/untitled57.dir/PLayer.cpp.s
-
-CMakeFiles/untitled57.dir/Mediator.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Mediator.cpp.o: ../Mediator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled57.dir/Mediator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Mediator.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp
-
-CMakeFiles/untitled57.dir/Mediator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Mediator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp > CMakeFiles/untitled57.dir/Mediator.cpp.i
-
-CMakeFiles/untitled57.dir/Mediator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Mediator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp -o CMakeFiles/untitled57.dir/Mediator.cpp.s
-
-CMakeFiles/untitled57.dir/CommandReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/CommandReader.cpp.o: ../CommandReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled57.dir/CommandReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/CommandReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/CommandReader.cpp
-
-CMakeFiles/untitled57.dir/CommandReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/CommandReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/CommandReader.cpp > CMakeFiles/untitled57.dir/CommandReader.cpp.i
-
-CMakeFiles/untitled57.dir/CommandReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/CommandReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/CommandReader.cpp -o CMakeFiles/untitled57.dir/CommandReader.cpp.s
-
-CMakeFiles/untitled57.dir/Controller.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Controller.cpp.o: ../Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled57.dir/Controller.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Controller.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp
-
-CMakeFiles/untitled57.dir/Controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Controller.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp > CMakeFiles/untitled57.dir/Controller.cpp.i
-
-CMakeFiles/untitled57.dir/Controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Controller.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp -o CMakeFiles/untitled57.dir/Controller.cpp.s
-
-CMakeFiles/untitled57.dir/Enemy.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Enemy.cpp.o: ../Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled57.dir/Enemy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Enemy.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Enemy.cpp
-
-CMakeFiles/untitled57.dir/Enemy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Enemy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Enemy.cpp > CMakeFiles/untitled57.dir/Enemy.cpp.i
-
-CMakeFiles/untitled57.dir/Enemy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Enemy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Enemy.cpp -o CMakeFiles/untitled57.dir/Enemy.cpp.s
-
-CMakeFiles/untitled57.dir/Trap.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Trap.cpp.o: ../Trap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled57.dir/Trap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Trap.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Trap.cpp
-
-CMakeFiles/untitled57.dir/Trap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Trap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Trap.cpp > CMakeFiles/untitled57.dir/Trap.cpp.i
-
-CMakeFiles/untitled57.dir/Trap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Trap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Trap.cpp -o CMakeFiles/untitled57.dir/Trap.cpp.s
-
-CMakeFiles/untitled57.dir/Treasure.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Treasure.cpp.o: ../Treasure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled57.dir/Treasure.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Treasure.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp
-
-CMakeFiles/untitled57.dir/Treasure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Treasure.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp > CMakeFiles/untitled57.dir/Treasure.cpp.i
-
-CMakeFiles/untitled57.dir/Treasure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Treasure.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp -o CMakeFiles/untitled57.dir/Treasure.cpp.s
-
-CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o: ../UnavailableFrame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp
-
-CMakeFiles/untitled57.dir/UnavailableFrame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/UnavailableFrame.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp > CMakeFiles/untitled57.dir/UnavailableFrame.cpp.i
-
-CMakeFiles/untitled57.dir/UnavailableFrame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/UnavailableFrame.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp -o CMakeFiles/untitled57.dir/UnavailableFrame.cpp.s
-
-CMakeFiles/untitled57.dir/FromStart.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/FromStart.cpp.o: ../FromStart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled57.dir/FromStart.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FromStart.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp
-
-CMakeFiles/untitled57.dir/FromStart.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FromStart.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp > CMakeFiles/untitled57.dir/FromStart.cpp.i
-
-CMakeFiles/untitled57.dir/FromStart.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FromStart.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp -o CMakeFiles/untitled57.dir/FromStart.cpp.s
-
-CMakeFiles/untitled57.dir/Output.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Output.cpp.o: ../Output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled57.dir/Output.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output.cpp
-
-CMakeFiles/untitled57.dir/Output.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output.cpp > CMakeFiles/untitled57.dir/Output.cpp.i
-
-CMakeFiles/untitled57.dir/Output.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output.cpp -o CMakeFiles/untitled57.dir/Output.cpp.s
-
-CMakeFiles/untitled57.dir/ErrorObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/ErrorObserver.cpp.o: ../ErrorObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled57.dir/ErrorObserver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/ErrorObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.cpp
-
-CMakeFiles/untitled57.dir/ErrorObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/ErrorObserver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.cpp > CMakeFiles/untitled57.dir/ErrorObserver.cpp.i
-
-CMakeFiles/untitled57.dir/ErrorObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/ErrorObserver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.cpp -o CMakeFiles/untitled57.dir/ErrorObserver.cpp.s
-
-CMakeFiles/untitled57.dir/GameObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/GameObserver.cpp.o: ../GameObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled57.dir/GameObserver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/GameObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp
-
-CMakeFiles/untitled57.dir/GameObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/GameObserver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp > CMakeFiles/untitled57.dir/GameObserver.cpp.i
-
-CMakeFiles/untitled57.dir/GameObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/GameObserver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp -o CMakeFiles/untitled57.dir/GameObserver.cpp.s
-
-CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o: ../PlayerFieldObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp
-
-CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp > CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.i
-
-CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp -o CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s
-
-CMakeFiles/untitled57.dir/NoOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/NoOutput.cpp.o: ../NoOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled57.dir/NoOutput.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/NoOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp
-
-CMakeFiles/untitled57.dir/NoOutput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/NoOutput.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp > CMakeFiles/untitled57.dir/NoOutput.cpp.i
-
-CMakeFiles/untitled57.dir/NoOutput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/NoOutput.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp -o CMakeFiles/untitled57.dir/NoOutput.cpp.s
-
-CMakeFiles/untitled57.dir/FileOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/FileOutput.cpp.o: ../FileOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/untitled57.dir/FileOutput.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FileOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp
-
-CMakeFiles/untitled57.dir/FileOutput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FileOutput.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp > CMakeFiles/untitled57.dir/FileOutput.cpp.i
-
-CMakeFiles/untitled57.dir/FileOutput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FileOutput.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp -o CMakeFiles/untitled57.dir/FileOutput.cpp.s
-
-CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o: ../ConsoleOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp
-
-CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp > CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i
-
-CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp -o CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s
-
-CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o: ../FileConsoleOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp
-
-CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp > CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i
-
-CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp -o CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s
-
-CMakeFiles/untitled57.dir/Message.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/Message.cpp.o: ../Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/untitled57.dir/Message.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Message.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Message.cpp
-
-CMakeFiles/untitled57.dir/Message.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Message.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Message.cpp > CMakeFiles/untitled57.dir/Message.cpp.i
-
-CMakeFiles/untitled57.dir/Message.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Message.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Message.cpp -o CMakeFiles/untitled57.dir/Message.cpp.s
-
-CMakeFiles/untitled57.dir/startInfoReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
-CMakeFiles/untitled57.dir/startInfoReader.cpp.o: ../startInfoReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/untitled57.dir/startInfoReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/startInfoReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp
-
-CMakeFiles/untitled57.dir/startInfoReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/startInfoReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp > CMakeFiles/untitled57.dir/startInfoReader.cpp.i
-
-CMakeFiles/untitled57.dir/startInfoReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/startInfoReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp -o CMakeFiles/untitled57.dir/startInfoReader.cpp.s
+CMakeFiles/untitled57.dir/Cell/Cell.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Cell/Cell.cpp.o: ../Cell/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled57.dir/Cell/Cell.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Cell/Cell.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.cpp
+
+CMakeFiles/untitled57.dir/Cell/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Cell/Cell.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.cpp > CMakeFiles/untitled57.dir/Cell/Cell.cpp.i
+
+CMakeFiles/untitled57.dir/Cell/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Cell/Cell.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.cpp -o CMakeFiles/untitled57.dir/Cell/Cell.cpp.s
+
+CMakeFiles/untitled57.dir/Cell/CellView.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Cell/CellView.cpp.o: ../Cell/CellView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled57.dir/Cell/CellView.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Cell/CellView.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.cpp
+
+CMakeFiles/untitled57.dir/Cell/CellView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Cell/CellView.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.cpp > CMakeFiles/untitled57.dir/Cell/CellView.cpp.i
+
+CMakeFiles/untitled57.dir/Cell/CellView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Cell/CellView.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.cpp -o CMakeFiles/untitled57.dir/Cell/CellView.cpp.s
+
+CMakeFiles/untitled57.dir/Field/Field.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Field/Field.cpp.o: ../Field/Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled57.dir/Field/Field.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Field/Field.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Field/Field.cpp
+
+CMakeFiles/untitled57.dir/Field/Field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Field/Field.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Field/Field.cpp > CMakeFiles/untitled57.dir/Field/Field.cpp.i
+
+CMakeFiles/untitled57.dir/Field/Field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Field/Field.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Field/Field.cpp -o CMakeFiles/untitled57.dir/Field/Field.cpp.s
+
+CMakeFiles/untitled57.dir/Field/FieldView.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Field/FieldView.cpp.o: ../Field/FieldView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled57.dir/Field/FieldView.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Field/FieldView.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.cpp
+
+CMakeFiles/untitled57.dir/Field/FieldView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Field/FieldView.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.cpp > CMakeFiles/untitled57.dir/Field/FieldView.cpp.i
+
+CMakeFiles/untitled57.dir/Field/FieldView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Field/FieldView.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.cpp -o CMakeFiles/untitled57.dir/Field/FieldView.cpp.s
+
+CMakeFiles/untitled57.dir/Player/PLayer.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Player/PLayer.cpp.o: ../Player/PLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled57.dir/Player/PLayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Player/PLayer.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp
+
+CMakeFiles/untitled57.dir/Player/PLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Player/PLayer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp > CMakeFiles/untitled57.dir/Player/PLayer.cpp.i
+
+CMakeFiles/untitled57.dir/Player/PLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Player/PLayer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp -o CMakeFiles/untitled57.dir/Player/PLayer.cpp.s
+
+CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o: ../Mediator/Mediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp
+
+CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp > CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.i
+
+CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp -o CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s
+
+CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o: ../Reader/CommandReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp
+
+CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp > CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i
+
+CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp -o CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s
+
+CMakeFiles/untitled57.dir/Controller/Controller.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Controller/Controller.cpp.o: ../Controller/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled57.dir/Controller/Controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Controller/Controller.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp
+
+CMakeFiles/untitled57.dir/Controller/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Controller/Controller.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp > CMakeFiles/untitled57.dir/Controller/Controller.cpp.i
+
+CMakeFiles/untitled57.dir/Controller/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Controller/Controller.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp -o CMakeFiles/untitled57.dir/Controller/Controller.cpp.s
+
+CMakeFiles/untitled57.dir/Events/Enemy.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Events/Enemy.cpp.o: ../Events/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled57.dir/Events/Enemy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Events/Enemy.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.cpp
+
+CMakeFiles/untitled57.dir/Events/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Events/Enemy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.cpp > CMakeFiles/untitled57.dir/Events/Enemy.cpp.i
+
+CMakeFiles/untitled57.dir/Events/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Events/Enemy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.cpp -o CMakeFiles/untitled57.dir/Events/Enemy.cpp.s
+
+CMakeFiles/untitled57.dir/Events/Trap.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Events/Trap.cpp.o: ../Events/Trap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled57.dir/Events/Trap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Events/Trap.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.cpp
+
+CMakeFiles/untitled57.dir/Events/Trap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Events/Trap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.cpp > CMakeFiles/untitled57.dir/Events/Trap.cpp.i
+
+CMakeFiles/untitled57.dir/Events/Trap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Events/Trap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.cpp -o CMakeFiles/untitled57.dir/Events/Trap.cpp.s
+
+CMakeFiles/untitled57.dir/Events/Treasure.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Events/Treasure.cpp.o: ../Events/Treasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled57.dir/Events/Treasure.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Events/Treasure.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.cpp
+
+CMakeFiles/untitled57.dir/Events/Treasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Events/Treasure.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.cpp > CMakeFiles/untitled57.dir/Events/Treasure.cpp.i
+
+CMakeFiles/untitled57.dir/Events/Treasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Events/Treasure.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.cpp -o CMakeFiles/untitled57.dir/Events/Treasure.cpp.s
+
+CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o: ../Events/UnavailableFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.cpp
+
+CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.cpp > CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.i
+
+CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.cpp -o CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.s
+
+CMakeFiles/untitled57.dir/Events/FromStart.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Events/FromStart.cpp.o: ../Events/FromStart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled57.dir/Events/FromStart.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Events/FromStart.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.cpp
+
+CMakeFiles/untitled57.dir/Events/FromStart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Events/FromStart.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.cpp > CMakeFiles/untitled57.dir/Events/FromStart.cpp.i
+
+CMakeFiles/untitled57.dir/Events/FromStart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Events/FromStart.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.cpp -o CMakeFiles/untitled57.dir/Events/FromStart.cpp.s
+
+CMakeFiles/untitled57.dir/Mediator/Output.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Mediator/Output.cpp.o: ../Mediator/Output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled57.dir/Mediator/Output.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Mediator/Output.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp
+
+CMakeFiles/untitled57.dir/Mediator/Output.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Mediator/Output.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp > CMakeFiles/untitled57.dir/Mediator/Output.cpp.i
+
+CMakeFiles/untitled57.dir/Mediator/Output.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Mediator/Output.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp -o CMakeFiles/untitled57.dir/Mediator/Output.cpp.s
+
+CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o: ../Observer/ErrorObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.cpp
+
+CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.cpp > CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.i
+
+CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.cpp -o CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.s
+
+CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o: ../Observer/GameObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.cpp
+
+CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.cpp > CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.i
+
+CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.cpp -o CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.s
+
+CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o: ../Observer/PlayerFieldObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.cpp
+
+CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.cpp > CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.i
+
+CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.cpp -o CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.s
+
+CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o: ../Output/NoOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.cpp
+
+CMakeFiles/untitled57.dir/Output/NoOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output/NoOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.cpp > CMakeFiles/untitled57.dir/Output/NoOutput.cpp.i
+
+CMakeFiles/untitled57.dir/Output/NoOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/NoOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.cpp -o CMakeFiles/untitled57.dir/Output/NoOutput.cpp.s
+
+CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o: ../Output/FileOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.cpp
+
+CMakeFiles/untitled57.dir/Output/FileOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output/FileOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.cpp > CMakeFiles/untitled57.dir/Output/FileOutput.cpp.i
+
+CMakeFiles/untitled57.dir/Output/FileOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/FileOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.cpp -o CMakeFiles/untitled57.dir/Output/FileOutput.cpp.s
+
+CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o: ../Output/ConsoleOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.cpp
+
+CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.cpp > CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.i
+
+CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.cpp -o CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.s
+
+CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o: ../Output/FileConsoleOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output/FileConsoleOutput.cpp
+
+CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output/FileConsoleOutput.cpp > CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.i
+
+CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/FileConsoleOutput.cpp -o CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.s
+
+CMakeFiles/untitled57.dir/Output/Message.cpp.o: CMakeFiles/untitled57.dir/flags.make
+CMakeFiles/untitled57.dir/Output/Message.cpp.o: ../Output/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/untitled57.dir/Output/Message.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled57.dir/Output/Message.cpp.o -c /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp
+
+CMakeFiles/untitled57.dir/Output/Message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled57.dir/Output/Message.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp > CMakeFiles/untitled57.dir/Output/Message.cpp.i
+
+CMakeFiles/untitled57.dir/Output/Message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled57.dir/Output/Message.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp -o CMakeFiles/untitled57.dir/Output/Message.cpp.s
 
 # Object files for target untitled57
 untitled57_OBJECTS = \
 "CMakeFiles/untitled57.dir/main.cpp.o" \
-"CMakeFiles/untitled57.dir/Cell.cpp.o" \
-"CMakeFiles/untitled57.dir/CellView.cpp.o" \
-"CMakeFiles/untitled57.dir/Field.cpp.o" \
-"CMakeFiles/untitled57.dir/FieldView.cpp.o" \
-"CMakeFiles/untitled57.dir/PLayer.cpp.o" \
-"CMakeFiles/untitled57.dir/Mediator.cpp.o" \
-"CMakeFiles/untitled57.dir/CommandReader.cpp.o" \
-"CMakeFiles/untitled57.dir/Controller.cpp.o" \
-"CMakeFiles/untitled57.dir/Enemy.cpp.o" \
-"CMakeFiles/untitled57.dir/Trap.cpp.o" \
-"CMakeFiles/untitled57.dir/Treasure.cpp.o" \
-"CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o" \
-"CMakeFiles/untitled57.dir/FromStart.cpp.o" \
-"CMakeFiles/untitled57.dir/Output.cpp.o" \
-"CMakeFiles/untitled57.dir/ErrorObserver.cpp.o" \
-"CMakeFiles/untitled57.dir/GameObserver.cpp.o" \
-"CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o" \
-"CMakeFiles/untitled57.dir/NoOutput.cpp.o" \
-"CMakeFiles/untitled57.dir/FileOutput.cpp.o" \
-"CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o" \
-"CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o" \
-"CMakeFiles/untitled57.dir/Message.cpp.o" \
-"CMakeFiles/untitled57.dir/startInfoReader.cpp.o"
+"CMakeFiles/untitled57.dir/Cell/Cell.cpp.o" \
+"CMakeFiles/untitled57.dir/Cell/CellView.cpp.o" \
+"CMakeFiles/untitled57.dir/Field/Field.cpp.o" \
+"CMakeFiles/untitled57.dir/Field/FieldView.cpp.o" \
+"CMakeFiles/untitled57.dir/Player/PLayer.cpp.o" \
+"CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o" \
+"CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o" \
+"CMakeFiles/untitled57.dir/Controller/Controller.cpp.o" \
+"CMakeFiles/untitled57.dir/Events/Enemy.cpp.o" \
+"CMakeFiles/untitled57.dir/Events/Trap.cpp.o" \
+"CMakeFiles/untitled57.dir/Events/Treasure.cpp.o" \
+"CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o" \
+"CMakeFiles/untitled57.dir/Events/FromStart.cpp.o" \
+"CMakeFiles/untitled57.dir/Mediator/Output.cpp.o" \
+"CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o" \
+"CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o" \
+"CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o" \
+"CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o" \
+"CMakeFiles/untitled57.dir/Output/Message.cpp.o"
 
 # External object files for target untitled57
 untitled57_EXTERNAL_OBJECTS =
 
 untitled57: CMakeFiles/untitled57.dir/main.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Cell.cpp.o
-untitled57: CMakeFiles/untitled57.dir/CellView.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Field.cpp.o
-untitled57: CMakeFiles/untitled57.dir/FieldView.cpp.o
-untitled57: CMakeFiles/untitled57.dir/PLayer.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Mediator.cpp.o
-untitled57: CMakeFiles/untitled57.dir/CommandReader.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Controller.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Enemy.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Trap.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Treasure.cpp.o
-untitled57: CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o
-untitled57: CMakeFiles/untitled57.dir/FromStart.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Output.cpp.o
-untitled57: CMakeFiles/untitled57.dir/ErrorObserver.cpp.o
-untitled57: CMakeFiles/untitled57.dir/GameObserver.cpp.o
-untitled57: CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o
-untitled57: CMakeFiles/untitled57.dir/NoOutput.cpp.o
-untitled57: CMakeFiles/untitled57.dir/FileOutput.cpp.o
-untitled57: CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o
-untitled57: CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o
-untitled57: CMakeFiles/untitled57.dir/Message.cpp.o
-untitled57: CMakeFiles/untitled57.dir/startInfoReader.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Cell/Cell.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Cell/CellView.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Field/Field.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Field/FieldView.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Player/PLayer.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Controller/Controller.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Events/Enemy.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Events/Trap.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Events/Treasure.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Events/FromStart.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Mediator/Output.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o
+untitled57: CMakeFiles/untitled57.dir/Output/Message.cpp.o
 untitled57: CMakeFiles/untitled57.dir/build.make
 untitled57: CMakeFiles/untitled57.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable untitled57"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chernyakova.run/CLionProjects/untitled57/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable untitled57"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled57.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

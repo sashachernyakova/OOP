@@ -1,4 +1,4 @@
-#include "Mediator.h"
+#include "Mediator/Mediator.h"
 
 int main(){
     Mediator mediator = Mediator();

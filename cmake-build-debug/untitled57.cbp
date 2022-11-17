@@ -80,169 +80,169 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CellView.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CellView.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleControl.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CommandReader.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ConsoleOutput.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Controller.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/FieldEvent.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Enemy.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Enemy.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/IEvent.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ErrorObserver.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/PersonEvent.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FIleConsoleOutput.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FieldEvent.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FieldView.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FieldView.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field/Field.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileConsoleOutput.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field/Field.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FileOutput.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FromStart.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IControl.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/FromStart.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/GameObserver.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IEvent.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/ILog.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IObservable.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/IObserver.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Mediator.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/IObservable.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Message.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/IObserver.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Message.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/NoOutput.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/FIleConsoleOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/PLayer.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/FileConsoleOutput.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/PLayer.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/FileConsoleOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/PersonEvent.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Player.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/ILog.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/PlayerFieldObserver.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/Message.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Trap.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/Message.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Trap.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Treasure.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Treasure.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Player/PLayer.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/UnavailableFrame.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.cpp">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/CommandReader.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/main.cpp">
-			<Option target="untitled57"/>
-		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.cpp">
-			<Option target="untitled57"/>
-		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/startInfoReader.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/CMakeLists.txt">

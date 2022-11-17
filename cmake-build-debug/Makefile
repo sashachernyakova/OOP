@@ -129,533 +129,533 @@ untitled57/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/build
 .PHONY : untitled57/fast
 
-Cell.o: Cell.cpp.o
-.PHONY : Cell.o
+Cell/Cell.o: Cell/Cell.cpp.o
+.PHONY : Cell/Cell.o
 
 # target to build an object file
-Cell.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell.cpp.o
-.PHONY : Cell.cpp.o
+Cell/Cell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/Cell.cpp.o
+.PHONY : Cell/Cell.cpp.o
 
-Cell.i: Cell.cpp.i
-.PHONY : Cell.i
+Cell/Cell.i: Cell/Cell.cpp.i
+.PHONY : Cell/Cell.i
 
 # target to preprocess a source file
-Cell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell.cpp.i
-.PHONY : Cell.cpp.i
+Cell/Cell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/Cell.cpp.i
+.PHONY : Cell/Cell.cpp.i
 
-Cell.s: Cell.cpp.s
-.PHONY : Cell.s
+Cell/Cell.s: Cell/Cell.cpp.s
+.PHONY : Cell/Cell.s
 
 # target to generate assembly for a file
-Cell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell.cpp.s
-.PHONY : Cell.cpp.s
+Cell/Cell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/Cell.cpp.s
+.PHONY : Cell/Cell.cpp.s
 
-CellView.o: CellView.cpp.o
-.PHONY : CellView.o
+Cell/CellView.o: Cell/CellView.cpp.o
+.PHONY : Cell/CellView.o
 
 # target to build an object file
-CellView.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CellView.cpp.o
-.PHONY : CellView.cpp.o
+Cell/CellView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/CellView.cpp.o
+.PHONY : Cell/CellView.cpp.o
 
-CellView.i: CellView.cpp.i
-.PHONY : CellView.i
+Cell/CellView.i: Cell/CellView.cpp.i
+.PHONY : Cell/CellView.i
 
 # target to preprocess a source file
-CellView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CellView.cpp.i
-.PHONY : CellView.cpp.i
+Cell/CellView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/CellView.cpp.i
+.PHONY : Cell/CellView.cpp.i
 
-CellView.s: CellView.cpp.s
-.PHONY : CellView.s
+Cell/CellView.s: Cell/CellView.cpp.s
+.PHONY : Cell/CellView.s
 
 # target to generate assembly for a file
-CellView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CellView.cpp.s
-.PHONY : CellView.cpp.s
+Cell/CellView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Cell/CellView.cpp.s
+.PHONY : Cell/CellView.cpp.s
 
-CommandReader.o: CommandReader.cpp.o
-.PHONY : CommandReader.o
+Controller/Controller.o: Controller/Controller.cpp.o
+.PHONY : Controller/Controller.o
 
 # target to build an object file
-CommandReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CommandReader.cpp.o
-.PHONY : CommandReader.cpp.o
+Controller/Controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller/Controller.cpp.o
+.PHONY : Controller/Controller.cpp.o
 
-CommandReader.i: CommandReader.cpp.i
-.PHONY : CommandReader.i
+Controller/Controller.i: Controller/Controller.cpp.i
+.PHONY : Controller/Controller.i
 
 # target to preprocess a source file
-CommandReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CommandReader.cpp.i
-.PHONY : CommandReader.cpp.i
+Controller/Controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller/Controller.cpp.i
+.PHONY : Controller/Controller.cpp.i
 
-CommandReader.s: CommandReader.cpp.s
-.PHONY : CommandReader.s
+Controller/Controller.s: Controller/Controller.cpp.s
+.PHONY : Controller/Controller.s
 
 # target to generate assembly for a file
-CommandReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/CommandReader.cpp.s
-.PHONY : CommandReader.cpp.s
+Controller/Controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller/Controller.cpp.s
+.PHONY : Controller/Controller.cpp.s
 
-ConsoleOutput.o: ConsoleOutput.cpp.o
-.PHONY : ConsoleOutput.o
+Events/Enemy.o: Events/Enemy.cpp.o
+.PHONY : Events/Enemy.o
 
 # target to build an object file
-ConsoleOutput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.o
-.PHONY : ConsoleOutput.cpp.o
+Events/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Enemy.cpp.o
+.PHONY : Events/Enemy.cpp.o
 
-ConsoleOutput.i: ConsoleOutput.cpp.i
-.PHONY : ConsoleOutput.i
+Events/Enemy.i: Events/Enemy.cpp.i
+.PHONY : Events/Enemy.i
 
 # target to preprocess a source file
-ConsoleOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.i
-.PHONY : ConsoleOutput.cpp.i
+Events/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Enemy.cpp.i
+.PHONY : Events/Enemy.cpp.i
 
-ConsoleOutput.s: ConsoleOutput.cpp.s
-.PHONY : ConsoleOutput.s
+Events/Enemy.s: Events/Enemy.cpp.s
+.PHONY : Events/Enemy.s
 
 # target to generate assembly for a file
-ConsoleOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ConsoleOutput.cpp.s
-.PHONY : ConsoleOutput.cpp.s
+Events/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Enemy.cpp.s
+.PHONY : Events/Enemy.cpp.s
 
-Controller.o: Controller.cpp.o
-.PHONY : Controller.o
+Events/FromStart.o: Events/FromStart.cpp.o
+.PHONY : Events/FromStart.o
 
 # target to build an object file
-Controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller.cpp.o
-.PHONY : Controller.cpp.o
+Events/FromStart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/FromStart.cpp.o
+.PHONY : Events/FromStart.cpp.o
 
-Controller.i: Controller.cpp.i
-.PHONY : Controller.i
+Events/FromStart.i: Events/FromStart.cpp.i
+.PHONY : Events/FromStart.i
 
 # target to preprocess a source file
-Controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller.cpp.i
-.PHONY : Controller.cpp.i
+Events/FromStart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/FromStart.cpp.i
+.PHONY : Events/FromStart.cpp.i
 
-Controller.s: Controller.cpp.s
-.PHONY : Controller.s
+Events/FromStart.s: Events/FromStart.cpp.s
+.PHONY : Events/FromStart.s
 
 # target to generate assembly for a file
-Controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Controller.cpp.s
-.PHONY : Controller.cpp.s
+Events/FromStart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/FromStart.cpp.s
+.PHONY : Events/FromStart.cpp.s
 
-Enemy.o: Enemy.cpp.o
-.PHONY : Enemy.o
+Events/Trap.o: Events/Trap.cpp.o
+.PHONY : Events/Trap.o
 
 # target to build an object file
-Enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Enemy.cpp.o
-.PHONY : Enemy.cpp.o
+Events/Trap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Trap.cpp.o
+.PHONY : Events/Trap.cpp.o
 
-Enemy.i: Enemy.cpp.i
-.PHONY : Enemy.i
+Events/Trap.i: Events/Trap.cpp.i
+.PHONY : Events/Trap.i
 
 # target to preprocess a source file
-Enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Enemy.cpp.i
-.PHONY : Enemy.cpp.i
+Events/Trap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Trap.cpp.i
+.PHONY : Events/Trap.cpp.i
 
-Enemy.s: Enemy.cpp.s
-.PHONY : Enemy.s
+Events/Trap.s: Events/Trap.cpp.s
+.PHONY : Events/Trap.s
 
 # target to generate assembly for a file
-Enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Enemy.cpp.s
-.PHONY : Enemy.cpp.s
+Events/Trap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Trap.cpp.s
+.PHONY : Events/Trap.cpp.s
 
-ErrorObserver.o: ErrorObserver.cpp.o
-.PHONY : ErrorObserver.o
+Events/Treasure.o: Events/Treasure.cpp.o
+.PHONY : Events/Treasure.o
 
 # target to build an object file
-ErrorObserver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ErrorObserver.cpp.o
-.PHONY : ErrorObserver.cpp.o
+Events/Treasure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Treasure.cpp.o
+.PHONY : Events/Treasure.cpp.o
 
-ErrorObserver.i: ErrorObserver.cpp.i
-.PHONY : ErrorObserver.i
+Events/Treasure.i: Events/Treasure.cpp.i
+.PHONY : Events/Treasure.i
 
 # target to preprocess a source file
-ErrorObserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ErrorObserver.cpp.i
-.PHONY : ErrorObserver.cpp.i
+Events/Treasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Treasure.cpp.i
+.PHONY : Events/Treasure.cpp.i
 
-ErrorObserver.s: ErrorObserver.cpp.s
-.PHONY : ErrorObserver.s
+Events/Treasure.s: Events/Treasure.cpp.s
+.PHONY : Events/Treasure.s
 
 # target to generate assembly for a file
-ErrorObserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/ErrorObserver.cpp.s
-.PHONY : ErrorObserver.cpp.s
+Events/Treasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/Treasure.cpp.s
+.PHONY : Events/Treasure.cpp.s
 
-Field.o: Field.cpp.o
-.PHONY : Field.o
+Events/UnavailableFrame.o: Events/UnavailableFrame.cpp.o
+.PHONY : Events/UnavailableFrame.o
 
 # target to build an object file
-Field.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field.cpp.o
-.PHONY : Field.cpp.o
+Events/UnavailableFrame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.o
+.PHONY : Events/UnavailableFrame.cpp.o
 
-Field.i: Field.cpp.i
-.PHONY : Field.i
+Events/UnavailableFrame.i: Events/UnavailableFrame.cpp.i
+.PHONY : Events/UnavailableFrame.i
 
 # target to preprocess a source file
-Field.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field.cpp.i
-.PHONY : Field.cpp.i
+Events/UnavailableFrame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.i
+.PHONY : Events/UnavailableFrame.cpp.i
 
-Field.s: Field.cpp.s
-.PHONY : Field.s
+Events/UnavailableFrame.s: Events/UnavailableFrame.cpp.s
+.PHONY : Events/UnavailableFrame.s
 
 # target to generate assembly for a file
-Field.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field.cpp.s
-.PHONY : Field.cpp.s
+Events/UnavailableFrame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Events/UnavailableFrame.cpp.s
+.PHONY : Events/UnavailableFrame.cpp.s
 
-FieldView.o: FieldView.cpp.o
-.PHONY : FieldView.o
+Field/Field.o: Field/Field.cpp.o
+.PHONY : Field/Field.o
 
 # target to build an object file
-FieldView.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FieldView.cpp.o
-.PHONY : FieldView.cpp.o
+Field/Field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/Field.cpp.o
+.PHONY : Field/Field.cpp.o
 
-FieldView.i: FieldView.cpp.i
-.PHONY : FieldView.i
+Field/Field.i: Field/Field.cpp.i
+.PHONY : Field/Field.i
 
 # target to preprocess a source file
-FieldView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FieldView.cpp.i
-.PHONY : FieldView.cpp.i
+Field/Field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/Field.cpp.i
+.PHONY : Field/Field.cpp.i
 
-FieldView.s: FieldView.cpp.s
-.PHONY : FieldView.s
+Field/Field.s: Field/Field.cpp.s
+.PHONY : Field/Field.s
 
 # target to generate assembly for a file
-FieldView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FieldView.cpp.s
-.PHONY : FieldView.cpp.s
+Field/Field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/Field.cpp.s
+.PHONY : Field/Field.cpp.s
 
-FileConsoleOutput.o: FileConsoleOutput.cpp.o
-.PHONY : FileConsoleOutput.o
+Field/FieldView.o: Field/FieldView.cpp.o
+.PHONY : Field/FieldView.o
 
 # target to build an object file
-FileConsoleOutput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.o
-.PHONY : FileConsoleOutput.cpp.o
+Field/FieldView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/FieldView.cpp.o
+.PHONY : Field/FieldView.cpp.o
 
-FileConsoleOutput.i: FileConsoleOutput.cpp.i
-.PHONY : FileConsoleOutput.i
+Field/FieldView.i: Field/FieldView.cpp.i
+.PHONY : Field/FieldView.i
 
 # target to preprocess a source file
-FileConsoleOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.i
-.PHONY : FileConsoleOutput.cpp.i
+Field/FieldView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/FieldView.cpp.i
+.PHONY : Field/FieldView.cpp.i
 
-FileConsoleOutput.s: FileConsoleOutput.cpp.s
-.PHONY : FileConsoleOutput.s
+Field/FieldView.s: Field/FieldView.cpp.s
+.PHONY : Field/FieldView.s
 
 # target to generate assembly for a file
-FileConsoleOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileConsoleOutput.cpp.s
-.PHONY : FileConsoleOutput.cpp.s
+Field/FieldView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Field/FieldView.cpp.s
+.PHONY : Field/FieldView.cpp.s
 
-FileOutput.o: FileOutput.cpp.o
-.PHONY : FileOutput.o
+Mediator/Mediator.o: Mediator/Mediator.cpp.o
+.PHONY : Mediator/Mediator.o
 
 # target to build an object file
-FileOutput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.o
-.PHONY : FileOutput.cpp.o
+Mediator/Mediator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o
+.PHONY : Mediator/Mediator.cpp.o
 
-FileOutput.i: FileOutput.cpp.i
-.PHONY : FileOutput.i
+Mediator/Mediator.i: Mediator/Mediator.cpp.i
+.PHONY : Mediator/Mediator.i
 
 # target to preprocess a source file
-FileOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.i
-.PHONY : FileOutput.cpp.i
+Mediator/Mediator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.i
+.PHONY : Mediator/Mediator.cpp.i
 
-FileOutput.s: FileOutput.cpp.s
-.PHONY : FileOutput.s
+Mediator/Mediator.s: Mediator/Mediator.cpp.s
+.PHONY : Mediator/Mediator.s
 
 # target to generate assembly for a file
-FileOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FileOutput.cpp.s
-.PHONY : FileOutput.cpp.s
+Mediator/Mediator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.s
+.PHONY : Mediator/Mediator.cpp.s
 
-FromStart.o: FromStart.cpp.o
-.PHONY : FromStart.o
+Mediator/Output.o: Mediator/Output.cpp.o
+.PHONY : Mediator/Output.o
 
 # target to build an object file
-FromStart.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FromStart.cpp.o
-.PHONY : FromStart.cpp.o
+Mediator/Output.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Output.cpp.o
+.PHONY : Mediator/Output.cpp.o
 
-FromStart.i: FromStart.cpp.i
-.PHONY : FromStart.i
+Mediator/Output.i: Mediator/Output.cpp.i
+.PHONY : Mediator/Output.i
 
 # target to preprocess a source file
-FromStart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FromStart.cpp.i
-.PHONY : FromStart.cpp.i
+Mediator/Output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Output.cpp.i
+.PHONY : Mediator/Output.cpp.i
 
-FromStart.s: FromStart.cpp.s
-.PHONY : FromStart.s
+Mediator/Output.s: Mediator/Output.cpp.s
+.PHONY : Mediator/Output.s
 
 # target to generate assembly for a file
-FromStart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/FromStart.cpp.s
-.PHONY : FromStart.cpp.s
+Mediator/Output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator/Output.cpp.s
+.PHONY : Mediator/Output.cpp.s
 
-GameObserver.o: GameObserver.cpp.o
-.PHONY : GameObserver.o
+Observer/ErrorObserver.o: Observer/ErrorObserver.cpp.o
+.PHONY : Observer/ErrorObserver.o
 
 # target to build an object file
-GameObserver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/GameObserver.cpp.o
-.PHONY : GameObserver.cpp.o
+Observer/ErrorObserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.o
+.PHONY : Observer/ErrorObserver.cpp.o
 
-GameObserver.i: GameObserver.cpp.i
-.PHONY : GameObserver.i
+Observer/ErrorObserver.i: Observer/ErrorObserver.cpp.i
+.PHONY : Observer/ErrorObserver.i
 
 # target to preprocess a source file
-GameObserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/GameObserver.cpp.i
-.PHONY : GameObserver.cpp.i
+Observer/ErrorObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.i
+.PHONY : Observer/ErrorObserver.cpp.i
 
-GameObserver.s: GameObserver.cpp.s
-.PHONY : GameObserver.s
+Observer/ErrorObserver.s: Observer/ErrorObserver.cpp.s
+.PHONY : Observer/ErrorObserver.s
 
 # target to generate assembly for a file
-GameObserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/GameObserver.cpp.s
-.PHONY : GameObserver.cpp.s
+Observer/ErrorObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/ErrorObserver.cpp.s
+.PHONY : Observer/ErrorObserver.cpp.s
 
-Mediator.o: Mediator.cpp.o
-.PHONY : Mediator.o
+Observer/GameObserver.o: Observer/GameObserver.cpp.o
+.PHONY : Observer/GameObserver.o
 
 # target to build an object file
-Mediator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator.cpp.o
-.PHONY : Mediator.cpp.o
+Observer/GameObserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.o
+.PHONY : Observer/GameObserver.cpp.o
 
-Mediator.i: Mediator.cpp.i
-.PHONY : Mediator.i
+Observer/GameObserver.i: Observer/GameObserver.cpp.i
+.PHONY : Observer/GameObserver.i
 
 # target to preprocess a source file
-Mediator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator.cpp.i
-.PHONY : Mediator.cpp.i
+Observer/GameObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.i
+.PHONY : Observer/GameObserver.cpp.i
 
-Mediator.s: Mediator.cpp.s
-.PHONY : Mediator.s
+Observer/GameObserver.s: Observer/GameObserver.cpp.s
+.PHONY : Observer/GameObserver.s
 
 # target to generate assembly for a file
-Mediator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Mediator.cpp.s
-.PHONY : Mediator.cpp.s
+Observer/GameObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/GameObserver.cpp.s
+.PHONY : Observer/GameObserver.cpp.s
 
-Message.o: Message.cpp.o
-.PHONY : Message.o
+Observer/PlayerFieldObserver.o: Observer/PlayerFieldObserver.cpp.o
+.PHONY : Observer/PlayerFieldObserver.o
 
 # target to build an object file
-Message.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Message.cpp.o
-.PHONY : Message.cpp.o
+Observer/PlayerFieldObserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.o
+.PHONY : Observer/PlayerFieldObserver.cpp.o
 
-Message.i: Message.cpp.i
-.PHONY : Message.i
+Observer/PlayerFieldObserver.i: Observer/PlayerFieldObserver.cpp.i
+.PHONY : Observer/PlayerFieldObserver.i
 
 # target to preprocess a source file
-Message.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Message.cpp.i
-.PHONY : Message.cpp.i
+Observer/PlayerFieldObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.i
+.PHONY : Observer/PlayerFieldObserver.cpp.i
 
-Message.s: Message.cpp.s
-.PHONY : Message.s
+Observer/PlayerFieldObserver.s: Observer/PlayerFieldObserver.cpp.s
+.PHONY : Observer/PlayerFieldObserver.s
 
 # target to generate assembly for a file
-Message.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Message.cpp.s
-.PHONY : Message.cpp.s
+Observer/PlayerFieldObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Observer/PlayerFieldObserver.cpp.s
+.PHONY : Observer/PlayerFieldObserver.cpp.s
 
-NoOutput.o: NoOutput.cpp.o
-.PHONY : NoOutput.o
+Output/ConsoleOutput.o: Output/ConsoleOutput.cpp.o
+.PHONY : Output/ConsoleOutput.o
 
 # target to build an object file
-NoOutput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.o
-.PHONY : NoOutput.cpp.o
+Output/ConsoleOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.o
+.PHONY : Output/ConsoleOutput.cpp.o
 
-NoOutput.i: NoOutput.cpp.i
-.PHONY : NoOutput.i
+Output/ConsoleOutput.i: Output/ConsoleOutput.cpp.i
+.PHONY : Output/ConsoleOutput.i
 
 # target to preprocess a source file
-NoOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.i
-.PHONY : NoOutput.cpp.i
+Output/ConsoleOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.i
+.PHONY : Output/ConsoleOutput.cpp.i
 
-NoOutput.s: NoOutput.cpp.s
-.PHONY : NoOutput.s
+Output/ConsoleOutput.s: Output/ConsoleOutput.cpp.s
+.PHONY : Output/ConsoleOutput.s
 
 # target to generate assembly for a file
-NoOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/NoOutput.cpp.s
-.PHONY : NoOutput.cpp.s
+Output/ConsoleOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/ConsoleOutput.cpp.s
+.PHONY : Output/ConsoleOutput.cpp.s
 
-Output.o: Output.cpp.o
-.PHONY : Output.o
+Output/FileConsoleOutput.o: Output/FileConsoleOutput.cpp.o
+.PHONY : Output/FileConsoleOutput.o
 
 # target to build an object file
-Output.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output.cpp.o
-.PHONY : Output.cpp.o
+Output/FileConsoleOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.o
+.PHONY : Output/FileConsoleOutput.cpp.o
 
-Output.i: Output.cpp.i
-.PHONY : Output.i
+Output/FileConsoleOutput.i: Output/FileConsoleOutput.cpp.i
+.PHONY : Output/FileConsoleOutput.i
 
 # target to preprocess a source file
-Output.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output.cpp.i
-.PHONY : Output.cpp.i
+Output/FileConsoleOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.i
+.PHONY : Output/FileConsoleOutput.cpp.i
 
-Output.s: Output.cpp.s
-.PHONY : Output.s
+Output/FileConsoleOutput.s: Output/FileConsoleOutput.cpp.s
+.PHONY : Output/FileConsoleOutput.s
 
 # target to generate assembly for a file
-Output.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output.cpp.s
-.PHONY : Output.cpp.s
+Output/FileConsoleOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileConsoleOutput.cpp.s
+.PHONY : Output/FileConsoleOutput.cpp.s
 
-PLayer.o: PLayer.cpp.o
-.PHONY : PLayer.o
+Output/FileOutput.o: Output/FileOutput.cpp.o
+.PHONY : Output/FileOutput.o
 
 # target to build an object file
-PLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PLayer.cpp.o
-.PHONY : PLayer.cpp.o
+Output/FileOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileOutput.cpp.o
+.PHONY : Output/FileOutput.cpp.o
 
-PLayer.i: PLayer.cpp.i
-.PHONY : PLayer.i
+Output/FileOutput.i: Output/FileOutput.cpp.i
+.PHONY : Output/FileOutput.i
 
 # target to preprocess a source file
-PLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PLayer.cpp.i
-.PHONY : PLayer.cpp.i
+Output/FileOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileOutput.cpp.i
+.PHONY : Output/FileOutput.cpp.i
 
-PLayer.s: PLayer.cpp.s
-.PHONY : PLayer.s
+Output/FileOutput.s: Output/FileOutput.cpp.s
+.PHONY : Output/FileOutput.s
 
 # target to generate assembly for a file
-PLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PLayer.cpp.s
-.PHONY : PLayer.cpp.s
+Output/FileOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/FileOutput.cpp.s
+.PHONY : Output/FileOutput.cpp.s
 
-PlayerFieldObserver.o: PlayerFieldObserver.cpp.o
-.PHONY : PlayerFieldObserver.o
+Output/Message.o: Output/Message.cpp.o
+.PHONY : Output/Message.o
 
 # target to build an object file
-PlayerFieldObserver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.o
-.PHONY : PlayerFieldObserver.cpp.o
+Output/Message.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/Message.cpp.o
+.PHONY : Output/Message.cpp.o
 
-PlayerFieldObserver.i: PlayerFieldObserver.cpp.i
-.PHONY : PlayerFieldObserver.i
+Output/Message.i: Output/Message.cpp.i
+.PHONY : Output/Message.i
 
 # target to preprocess a source file
-PlayerFieldObserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.i
-.PHONY : PlayerFieldObserver.cpp.i
+Output/Message.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/Message.cpp.i
+.PHONY : Output/Message.cpp.i
 
-PlayerFieldObserver.s: PlayerFieldObserver.cpp.s
-.PHONY : PlayerFieldObserver.s
+Output/Message.s: Output/Message.cpp.s
+.PHONY : Output/Message.s
 
 # target to generate assembly for a file
-PlayerFieldObserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/PlayerFieldObserver.cpp.s
-.PHONY : PlayerFieldObserver.cpp.s
+Output/Message.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/Message.cpp.s
+.PHONY : Output/Message.cpp.s
 
-Trap.o: Trap.cpp.o
-.PHONY : Trap.o
+Output/NoOutput.o: Output/NoOutput.cpp.o
+.PHONY : Output/NoOutput.o
 
 # target to build an object file
-Trap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Trap.cpp.o
-.PHONY : Trap.cpp.o
+Output/NoOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o
+.PHONY : Output/NoOutput.cpp.o
 
-Trap.i: Trap.cpp.i
-.PHONY : Trap.i
+Output/NoOutput.i: Output/NoOutput.cpp.i
+.PHONY : Output/NoOutput.i
 
 # target to preprocess a source file
-Trap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Trap.cpp.i
-.PHONY : Trap.cpp.i
+Output/NoOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/NoOutput.cpp.i
+.PHONY : Output/NoOutput.cpp.i
 
-Trap.s: Trap.cpp.s
-.PHONY : Trap.s
+Output/NoOutput.s: Output/NoOutput.cpp.s
+.PHONY : Output/NoOutput.s
 
 # target to generate assembly for a file
-Trap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Trap.cpp.s
-.PHONY : Trap.cpp.s
+Output/NoOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Output/NoOutput.cpp.s
+.PHONY : Output/NoOutput.cpp.s
 
-Treasure.o: Treasure.cpp.o
-.PHONY : Treasure.o
+Player/PLayer.o: Player/PLayer.cpp.o
+.PHONY : Player/PLayer.o
 
 # target to build an object file
-Treasure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Treasure.cpp.o
-.PHONY : Treasure.cpp.o
+Player/PLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Player/PLayer.cpp.o
+.PHONY : Player/PLayer.cpp.o
 
-Treasure.i: Treasure.cpp.i
-.PHONY : Treasure.i
+Player/PLayer.i: Player/PLayer.cpp.i
+.PHONY : Player/PLayer.i
 
 # target to preprocess a source file
-Treasure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Treasure.cpp.i
-.PHONY : Treasure.cpp.i
+Player/PLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Player/PLayer.cpp.i
+.PHONY : Player/PLayer.cpp.i
 
-Treasure.s: Treasure.cpp.s
-.PHONY : Treasure.s
+Player/PLayer.s: Player/PLayer.cpp.s
+.PHONY : Player/PLayer.s
 
 # target to generate assembly for a file
-Treasure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Treasure.cpp.s
-.PHONY : Treasure.cpp.s
+Player/PLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Player/PLayer.cpp.s
+.PHONY : Player/PLayer.cpp.s
 
-UnavailableFrame.o: UnavailableFrame.cpp.o
-.PHONY : UnavailableFrame.o
+Reader/CommandReader.o: Reader/CommandReader.cpp.o
+.PHONY : Reader/CommandReader.o
 
 # target to build an object file
-UnavailableFrame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/UnavailableFrame.cpp.o
-.PHONY : UnavailableFrame.cpp.o
+Reader/CommandReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.o
+.PHONY : Reader/CommandReader.cpp.o
 
-UnavailableFrame.i: UnavailableFrame.cpp.i
-.PHONY : UnavailableFrame.i
+Reader/CommandReader.i: Reader/CommandReader.cpp.i
+.PHONY : Reader/CommandReader.i
 
 # target to preprocess a source file
-UnavailableFrame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/UnavailableFrame.cpp.i
-.PHONY : UnavailableFrame.cpp.i
+Reader/CommandReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.i
+.PHONY : Reader/CommandReader.cpp.i
 
-UnavailableFrame.s: UnavailableFrame.cpp.s
-.PHONY : UnavailableFrame.s
+Reader/CommandReader.s: Reader/CommandReader.cpp.s
+.PHONY : Reader/CommandReader.s
 
 # target to generate assembly for a file
-UnavailableFrame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/UnavailableFrame.cpp.s
-.PHONY : UnavailableFrame.cpp.s
+Reader/CommandReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/CommandReader.cpp.s
+.PHONY : Reader/CommandReader.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -681,30 +681,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-startInfoReader.o: startInfoReader.cpp.o
-.PHONY : startInfoReader.o
-
-# target to build an object file
-startInfoReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.o
-.PHONY : startInfoReader.cpp.o
-
-startInfoReader.i: startInfoReader.cpp.i
-.PHONY : startInfoReader.i
-
-# target to preprocess a source file
-startInfoReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.i
-.PHONY : startInfoReader.cpp.i
-
-startInfoReader.s: startInfoReader.cpp.s
-.PHONY : startInfoReader.s
-
-# target to generate assembly for a file
-startInfoReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/startInfoReader.cpp.s
-.PHONY : startInfoReader.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -714,78 +690,75 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled57"
-	@echo "... Cell.o"
-	@echo "... Cell.i"
-	@echo "... Cell.s"
-	@echo "... CellView.o"
-	@echo "... CellView.i"
-	@echo "... CellView.s"
-	@echo "... CommandReader.o"
-	@echo "... CommandReader.i"
-	@echo "... CommandReader.s"
-	@echo "... ConsoleOutput.o"
-	@echo "... ConsoleOutput.i"
-	@echo "... ConsoleOutput.s"
-	@echo "... Controller.o"
-	@echo "... Controller.i"
-	@echo "... Controller.s"
-	@echo "... Enemy.o"
-	@echo "... Enemy.i"
-	@echo "... Enemy.s"
-	@echo "... ErrorObserver.o"
-	@echo "... ErrorObserver.i"
-	@echo "... ErrorObserver.s"
-	@echo "... Field.o"
-	@echo "... Field.i"
-	@echo "... Field.s"
-	@echo "... FieldView.o"
-	@echo "... FieldView.i"
-	@echo "... FieldView.s"
-	@echo "... FileConsoleOutput.o"
-	@echo "... FileConsoleOutput.i"
-	@echo "... FileConsoleOutput.s"
-	@echo "... FileOutput.o"
-	@echo "... FileOutput.i"
-	@echo "... FileOutput.s"
-	@echo "... FromStart.o"
-	@echo "... FromStart.i"
-	@echo "... FromStart.s"
-	@echo "... GameObserver.o"
-	@echo "... GameObserver.i"
-	@echo "... GameObserver.s"
-	@echo "... Mediator.o"
-	@echo "... Mediator.i"
-	@echo "... Mediator.s"
-	@echo "... Message.o"
-	@echo "... Message.i"
-	@echo "... Message.s"
-	@echo "... NoOutput.o"
-	@echo "... NoOutput.i"
-	@echo "... NoOutput.s"
-	@echo "... Output.o"
-	@echo "... Output.i"
-	@echo "... Output.s"
-	@echo "... PLayer.o"
-	@echo "... PLayer.i"
-	@echo "... PLayer.s"
-	@echo "... PlayerFieldObserver.o"
-	@echo "... PlayerFieldObserver.i"
-	@echo "... PlayerFieldObserver.s"
-	@echo "... Trap.o"
-	@echo "... Trap.i"
-	@echo "... Trap.s"
-	@echo "... Treasure.o"
-	@echo "... Treasure.i"
-	@echo "... Treasure.s"
-	@echo "... UnavailableFrame.o"
-	@echo "... UnavailableFrame.i"
-	@echo "... UnavailableFrame.s"
+	@echo "... Cell/Cell.o"
+	@echo "... Cell/Cell.i"
+	@echo "... Cell/Cell.s"
+	@echo "... Cell/CellView.o"
+	@echo "... Cell/CellView.i"
+	@echo "... Cell/CellView.s"
+	@echo "... Controller/Controller.o"
+	@echo "... Controller/Controller.i"
+	@echo "... Controller/Controller.s"
+	@echo "... Events/Enemy.o"
+	@echo "... Events/Enemy.i"
+	@echo "... Events/Enemy.s"
+	@echo "... Events/FromStart.o"
+	@echo "... Events/FromStart.i"
+	@echo "... Events/FromStart.s"
+	@echo "... Events/Trap.o"
+	@echo "... Events/Trap.i"
+	@echo "... Events/Trap.s"
+	@echo "... Events/Treasure.o"
+	@echo "... Events/Treasure.i"
+	@echo "... Events/Treasure.s"
+	@echo "... Events/UnavailableFrame.o"
+	@echo "... Events/UnavailableFrame.i"
+	@echo "... Events/UnavailableFrame.s"
+	@echo "... Field/Field.o"
+	@echo "... Field/Field.i"
+	@echo "... Field/Field.s"
+	@echo "... Field/FieldView.o"
+	@echo "... Field/FieldView.i"
+	@echo "... Field/FieldView.s"
+	@echo "... Mediator/Mediator.o"
+	@echo "... Mediator/Mediator.i"
+	@echo "... Mediator/Mediator.s"
+	@echo "... Mediator/Output.o"
+	@echo "... Mediator/Output.i"
+	@echo "... Mediator/Output.s"
+	@echo "... Observer/ErrorObserver.o"
+	@echo "... Observer/ErrorObserver.i"
+	@echo "... Observer/ErrorObserver.s"
+	@echo "... Observer/GameObserver.o"
+	@echo "... Observer/GameObserver.i"
+	@echo "... Observer/GameObserver.s"
+	@echo "... Observer/PlayerFieldObserver.o"
+	@echo "... Observer/PlayerFieldObserver.i"
+	@echo "... Observer/PlayerFieldObserver.s"
+	@echo "... Output/ConsoleOutput.o"
+	@echo "... Output/ConsoleOutput.i"
+	@echo "... Output/ConsoleOutput.s"
+	@echo "... Output/FileConsoleOutput.o"
+	@echo "... Output/FileConsoleOutput.i"
+	@echo "... Output/FileConsoleOutput.s"
+	@echo "... Output/FileOutput.o"
+	@echo "... Output/FileOutput.i"
+	@echo "... Output/FileOutput.s"
+	@echo "... Output/Message.o"
+	@echo "... Output/Message.i"
+	@echo "... Output/Message.s"
+	@echo "... Output/NoOutput.o"
+	@echo "... Output/NoOutput.i"
+	@echo "... Output/NoOutput.s"
+	@echo "... Player/PLayer.o"
+	@echo "... Player/PLayer.i"
+	@echo "... Player/PLayer.s"
+	@echo "... Reader/CommandReader.o"
+	@echo "... Reader/CommandReader.i"
+	@echo "... Reader/CommandReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... startInfoReader.o"
-	@echo "... startInfoReader.i"
-	@echo "... startInfoReader.s"
 .PHONY : help
 
 

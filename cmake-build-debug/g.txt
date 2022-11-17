@@ -1,0 +1,16 @@
+[ERROR] Height can not be negative. The height is set with default size 10.
+
+[ERROR] Width can not be negative. The width is set with default size 10.
+
+[GAME] The game starts
+
+[STATUS] The player have gone all 4 steps
+
+[STATUS] The player's health is 142
+
+[STATUS] The player's experience is 50
+
+[STATUS] The player's treasure is 0
+
+[STATUS] The player have gone all 1 steps
+
