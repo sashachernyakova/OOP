@@ -22,7 +22,6 @@ public:
     Controller(std::string log, int print, int y = 10, int x = 10);
     int changePlayerPosition (Field::Action action, int step);
     int movement(int steps, Field::Action action);
-    void steps();
     void stop();
     void start();
     void errorH();

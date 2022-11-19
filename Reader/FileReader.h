@@ -10,6 +10,7 @@ class FileReader: public Reader{
 public:
     FileReader(std::ifstream *in);
     std::string read() override;
+    bool canRead() override;
     ~FileReader();
 };
 

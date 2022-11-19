@@ -8,9 +8,10 @@
 #include "Reader.h"
 
 class ConsoleReader: public Reader{
-    std::string n;
+    std::string str;
 public:
     std::string read() override;
+    bool canRead() override;
 };
 
 #endif

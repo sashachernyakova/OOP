@@ -1,11 +1,6 @@
 #include "FileReader.h"
 
-FileReader::FileReader(std::ifstream *in):in(in) {
-    if (!in->is_open()){
-        in->close();
-        in = nullptr;
-    }
-}
+FileReader::FileReader(std::ifstream *in):in(in) {}
 
 std::string FileReader::read() {
     std::string str;
@@ -20,4 +15,14 @@ std::string FileReader::read() {
 
 FileReader::~FileReader() {
     in->close();
+    delete in;
+}
+
+bool FileReader::canRead() {
+    if (in->is_open()){
+        return true;
+    } else{
+        in->close();
+        return false;
+    }
 }

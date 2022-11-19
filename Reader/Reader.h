@@ -4,6 +4,7 @@
 class Reader{
 public:
     virtual std::string read() = 0;
+    virtual bool canRead() = 0;
 };
 
 #endif

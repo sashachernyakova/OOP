@@ -2,8 +2,11 @@
 
 Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
     std::ifstream in("navigation.txt");
-    //moveReader = new FileReader(&in);
-    moveReader = new ConsoleReader();
+    moveReader = new FileReader(&in);
+    if (!moveReader->canRead()){
+        delete moveReader;
+        moveReader = new ConsoleReader();
+    }
     output.logger();
     log = reader.read();
     output.howPrint();
@@ -38,7 +41,7 @@ Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
     controller->start();
     output.gameRules();
     txt1 = moveReader->read();
-    while(5 == 5) {
+    while(txt1 != "e") {
         if (txt1 == "stop") {
             controller->stop();
             break;
@@ -61,6 +64,7 @@ Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
         }
         txt1 = moveReader->read();
     }
+    return;
 }
 
 Mediator::~Mediator(){

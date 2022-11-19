@@ -16,6 +16,10 @@ iostream
 Cell.h
 /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.cpp
+Controller.h
+/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h
 ../Field/FieldView.h
 /Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.h
@@ -172,6 +176,10 @@ ILog.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
 
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp
+ConsoleReader.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
+
 /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
 string
 -
@@ -179,6 +187,10 @@ iostream
 -
 Reader.h
 /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp
+FileReader.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
 iostream
@@ -189,4 +201,8 @@ fstream
 -
 
 /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+
+/Users/chernyakova.run/CLionProjects/untitled57/main.cpp
+Mediator/Mediator.h
+/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.h
 

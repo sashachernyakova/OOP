@@ -96,10 +96,6 @@ int Controller::movement(int steps, Field::Action action){
     }
 }
 
-void Controller::steps(){
-    std::cout << alex->getTotalSteps() << "\n";
-}
-
 Field::Action Controller::getAction(std::string direction){
     if (direction == "d"){
         return Field::right;
