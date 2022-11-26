@@ -30,7 +30,8 @@ public:
         right,
         left,
         up,
-        down
+        down,
+        exit
     };
 
     Field(int h = 10, int w = 10);

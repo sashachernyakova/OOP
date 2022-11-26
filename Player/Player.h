@@ -13,8 +13,6 @@ public:
 
     void makeStep();
 
-    int getTotalSteps() const;
-
     int getHP() const;
 
     int getXP() const;

@@ -1,70 +1,97 @@
 #include "Mediator.h"
 
 Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
-    std::ifstream in("navigation.txt");
-    moveReader = new FileReader(&in);
-    if (!moveReader->canRead()){
-        delete moveReader;
-        moveReader = new ConsoleReader();
-    }
+    moveReader = new ConsoleReader();
+
     output.logger();
     log = reader.read();
     output.howPrint();
     print = std::stoi(reader.read());
     output.createField();
-    txt1 = reader.read();
-    if (txt1 == "1"){
+
+    str = reader.read();
+    int hError = 0;
+    int wError = 0;
+
+    if (str == "1"){
         controller = new Controller(log, print);
-        controller->printField();
-    } else if (txt1 == "2"){
-        controller = new Controller(log, print);
-        output.getHeight();
-        txt1 = reader.read();
-        if(txt1[0] == '-'){
+    } else if (str == "2"){
+        output.getSize();
+        std::vector <int> fieldSize;
+
+        str = reader.read();
+        if(std::stoi(str) < 0){
+            hError = 1;
+            fieldSize.push_back(10);
+        }else{
+            fieldSize.push_back(std::stoi(str));
+        }
+
+        str = reader.read();
+        if(std::stoi(str) < 0){
+            wError = 1;
+            fieldSize.push_back(10);
+        }
+        fieldSize.push_back(std::stoi(str));
+
+        controller = new Controller(log, print, fieldSize[0], fieldSize[1]);
+        if (hError == 1){
             controller->errorH();
-            txt1 = "10";
         }
-        output.getWidth();
-        txt2 = reader.read();
-        if(txt2[0] == '-'){
+        if (wError == 1){
             controller->errorW();
-            txt2 = "10";
         }
-        delete controller;
-        controller = new Controller(log, print, std::stoi(txt1), std::stoi(txt2));
-        controller->printField();
+
     } else {
         controller = new Controller(log, print);
         controller->errorNumber();
-        controller->printField();
+    }
+    controller->printField();
+
+    output.rules();
+    str = reader.read();
+
+    if(std::stoi(str) == 1){
+        int i = 1;
+        while(i<6){
+            std::getline(std::cin,str);
+            controller->madeVecDirection(str);
+            i++;
+        }
+    } else {
+        std::ifstream in("navigation.txt");
+        controller->madeVecDirection(&in);
     }
     controller->start();
     output.gameRules();
-    txt1 = moveReader->read();
-    while(txt1 != "e") {
-        if (txt1 == "stop") {
-            controller->stop();
-            break;
+}
+
+void Mediator::start() {
+    str = moveReader->read();
+    while(str != controller->returnVec(4)) {
+        std::vector <std::string> out;
+        makeVector(out, str);
+        int go = controller->isDirection(out[1]);
+        if (go != 0) {
+            if (controller->movement(std::stoi(out[0]), controller->getAction(go)) == 1) {
+                return;
+            }
         } else {
-            std::vector <std::string> out;
-            size_t start;
-            size_t end = 0;
-            const char delim = ' ';
-            while ((start = txt1.find_first_not_of(delim, end)) != std::string::npos) {
-                end = txt1.find(delim, start);
-                out.push_back(txt1.substr(start, end - start));
-            }
-            if (controller->isDirection(out[1])) {
-                if (controller->movement(std::stoi(out[0]), controller->getAction(out[1])) == 1) {
-                    return;
-                }
-            } else {
-                controller->errorD();
-            }
+            controller->errorD();
         }
-        txt1 = moveReader->read();
+        str = moveReader->read();
     }
-    return;
+    controller->stop();
+}
+
+void Mediator::makeVector(std::vector<std::string> &vec, std::string str) {
+    size_t start;
+    size_t end = 0;
+    const char delim = ' ';
+    while ((start = str.find_first_not_of(delim, end)) != std::string::npos) {
+        end = str.find(delim, start);
+        vec.push_back(str.substr(start, end - start));
+    }
 }
 
 Mediator::~Mediator(){

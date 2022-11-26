@@ -18,6 +18,7 @@ class Controller{
     int pr;
     IObserver* o;
     ILog* l;
+    std::vector <std::string> navigation;
 public:
     Controller(std::string log, int print, int y = 10, int x = 10);
     int changePlayerPosition (Field::Action action, int step);
@@ -28,9 +29,12 @@ public:
     void errorW();
     void errorD();
     void errorNumber();
-    bool isDirection(std::string direction);
+    int isDirection(std::string direction);
     void printField();
-    Field::Action getAction(std::string direction);
+    Field::Action getAction(int config);
+    void madeVecDirection(std::ifstream* in);
+    void madeVecDirection(std::string str);
+    std::string returnVec(int i);
     ~Controller();
 };
 

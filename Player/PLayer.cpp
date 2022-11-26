@@ -2,10 +2,6 @@
 
 Player::Player(): totalSteps(0), hp(100), xp(0), treasure(0) {}
 
-int Player::getTotalSteps() const{
-    return totalSteps;
-}
-
 int Player::getHP() const{
     return hp;
 }

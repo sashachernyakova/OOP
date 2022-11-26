@@ -10,9 +10,9 @@ public:
     void logger();
     void howPrint();
     void createField();
-    void getHeight();
-    void getWidth();
+    void getSize();
     void gameRules();
+    void rules();
 };
 
 #endif

@@ -23,7 +23,7 @@ void ErrorObserver::update(int m, IObserver::Logger l) {
             break;
 
         case errorDirection:
-            message = Message(type, "You entered error direction. You can enter: right, left, up, down\n");
+            message = Message(type, "You entered error direction\n");
             pr->print(message);
             break;
 

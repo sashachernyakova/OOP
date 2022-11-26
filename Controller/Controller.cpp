@@ -96,21 +96,10 @@ int Controller::movement(int steps, Field::Action action){
     }
 }
 
-Field::Action Controller::getAction(std::string direction){
-    if (direction == "d"){
-        return Field::right;
-    } else if(direction == "a"){
-        return Field::left;
-    } else if(direction == "w"){
-        return Field::up;
-    } else if(direction == "s"){
-        return Field::down;
-    }
+void Controller::printField() {
+    fieldView->printField();
 }
 
-bool Controller::isDirection(std::string direction){
-    return (direction == "a" || direction == "d" || direction == "w" || direction == "s");
-}
 
 Controller::~Controller() {
     delete alex;
@@ -142,7 +131,53 @@ void Controller::errorNumber() {
     field->errorStartNumber();
 }
 
-void Controller::printField() {
-    fieldView->printField();
+void Controller::madeVecDirection(std::ifstream* in){
+    std::string str;
+    int i = 1;
+    while(i<6){
+        std::getline(*in,str);
+        if (str[str.length()-1] == '\n'){
+            str[str.length()-1] = '\0';
+        }
+        navigation.push_back(str);
+        i++;
+    }
+}
+
+int Controller::isDirection(std::string direction) {
+    for (int i = 0; i < 5; i++) {
+        if (direction == navigation[i]) {
+            return i + 1;
+        }
+    }
+    return 0;
+}
+
+Field::Action Controller::getAction(int config){
+    switch(config){
+        case 1:
+            return Field::up;
+        case 2:
+            return Field::left;
+        case 3:
+            return Field::down;
+        case 4:
+            return Field::right;
+        case 5:
+            return Field::exit;
+        default:
+            break;
+    }
+}
+
+void Controller::madeVecDirection(std::string str) {
+    if (str[str.length()-1] == '\n'){
+        str[str.length()-1] = '\0';
+    }
+    navigation.push_back(str);
+}
+
+std::string Controller::returnVec(int i) {
+    return navigation[i];
 }
 

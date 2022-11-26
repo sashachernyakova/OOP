@@ -9,17 +9,19 @@
 #include "../Reader/Reader.h"
 #include "../Reader/FileReader.h"
 
+
 class Mediator{
     Controller* controller;
     ConsoleReader reader;
     Reader* moveReader;
-    std::string txt1;
-    std::string txt2;
+    Output output;
+    std::string str;
     std::string log;
     int print;
-    Output output;
 public:
     Mediator();
+    void start();
+    void makeVector(std::vector <std::string>& vec, std::string str);
     ~Mediator();
 };
 
