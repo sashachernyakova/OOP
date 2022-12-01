@@ -21,7 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled57.dir/Output/NoOutput.cpp.o"
   "CMakeFiles/untitled57.dir/Player/PLayer.cpp.o"
   "CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o"
-  "CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o"
+  "CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.o"
   "CMakeFiles/untitled57.dir/main.cpp.o"
   "untitled57"
   "untitled57.pdb"

@@ -236,10 +236,13 @@
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.cpp">
 			<Option target="untitled57"/>
 		</Unit>
-		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h">
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h">
+			<Option target="untitled57"/>
+		</Unit>
+		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h">
 			<Option target="untitled57"/>
 		</Unit>
 		<Unit filename="/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h">

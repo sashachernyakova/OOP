@@ -131,22 +131,10 @@ void Controller::errorNumber() {
     field->errorStartNumber();
 }
 
-void Controller::madeVecDirection(std::ifstream* in){
-    std::string str;
-    int i = 1;
-    while(i<6){
-        std::getline(*in,str);
-        if (str[str.length()-1] == '\n'){
-            str[str.length()-1] = '\0';
-        }
-        navigation.push_back(str);
-        i++;
-    }
-}
 
-int Controller::isDirection(std::string direction) {
+int Controller::isDirection(std::vector <std::string> v, std::string direction) {
     for (int i = 0; i < 5; i++) {
-        if (direction == navigation[i]) {
+        if (direction == v[i]) {
             return i + 1;
         }
     }
@@ -170,14 +158,5 @@ Field::Action Controller::getAction(int config){
     }
 }
 
-void Controller::madeVecDirection(std::string str) {
-    if (str[str.length()-1] == '\n'){
-        str[str.length()-1] = '\0';
-    }
-    navigation.push_back(str);
-}
 
-std::string Controller::returnVec(int i) {
-    return navigation[i];
-}
 

@@ -167,7 +167,8 @@ CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o: \
  ../Output/NoOutput.h \
  ../Player/Player.h \
  ../Reader/ConsoleReader.h \
- ../Reader/FileReader.h \
+ ../Reader/FileNavigation.h \
+ ../Reader/NavigationReader.h \
  ../Reader/Reader.h
 CMakeFiles/untitled57.dir/Mediator/Output.cpp.o: \
  ../Mediator/Output.cpp \
@@ -223,10 +224,35 @@ CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o: \
  ../Reader/ConsoleReader.cpp \
  ../Reader/ConsoleReader.h \
  ../Reader/Reader.h
-CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o: \
- ../Reader/FileReader.cpp \
- ../Reader/FileReader.h \
- ../Reader/Reader.h
+CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.o: \
+ ../Cell/Cell.h \
+ ../Cell/CellView.h \
+ ../Controller/Controller.h \
+ ../Events/Enemy.h \
+ ../Events/FieldEvent.h \
+ ../Events/FromStart.h \
+ ../Events/IEvent.h \
+ ../Events/PersonEvent.h \
+ ../Events/Trap.h \
+ ../Events/Treasure.h \
+ ../Events/UnavailableFrame.h \
+ ../Field/Field.h \
+ ../Field/FieldView.h \
+ ../Observer/ErrorObserver.h \
+ ../Observer/GameObserver.h \
+ ../Observer/IObservable.h \
+ ../Observer/IObserver.h \
+ ../Observer/PlayerFieldObserver.h \
+ ../Output/ConsoleOutput.h \
+ ../Output/FIleConsoleOutput.h \
+ ../Output/FileOutput.h \
+ ../Output/ILog.h \
+ ../Output/Message.h \
+ ../Output/NoOutput.h \
+ ../Player/Player.h \
+ ../Reader/FileNavigation.cpp \
+ ../Reader/FileNavigation.h \
+ ../Reader/NavigationReader.h
 CMakeFiles/untitled57.dir/main.cpp.o: \
  ../Cell/Cell.h \
  ../Cell/CellView.h \
@@ -256,6 +282,7 @@ CMakeFiles/untitled57.dir/main.cpp.o: \
  ../Output/NoOutput.h \
  ../Player/Player.h \
  ../Reader/ConsoleReader.h \
- ../Reader/FileReader.h \
+ ../Reader/FileNavigation.h \
+ ../Reader/NavigationReader.h \
  ../Reader/Reader.h \
  ../main.cpp

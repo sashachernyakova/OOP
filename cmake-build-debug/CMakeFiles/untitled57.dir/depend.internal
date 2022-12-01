@@ -167,7 +167,8 @@ CMakeFiles/untitled57.dir/Mediator/Mediator.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
 CMakeFiles/untitled57.dir/Mediator/Output.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.cpp
@@ -223,10 +224,35 @@ CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.cpp
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
-CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.cpp
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.o
+ /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/Enemy.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/FieldEvent.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/FromStart.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/IEvent.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/PersonEvent.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/Trap.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/Treasure.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Events/UnavailableFrame.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Field/Field.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Field/FieldView.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Observer/GameObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Observer/IObservable.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Observer/IObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Observer/PlayerFieldObserver.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/ConsoleOutput.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/FIleConsoleOutput.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/FileOutput.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/ILog.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/Message.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.cpp
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h
 CMakeFiles/untitled57.dir/main.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Cell/Cell.h
  /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h
@@ -256,6 +282,7 @@ CMakeFiles/untitled57.dir/main.cpp.o
  /Users/chernyakova.run/CLionProjects/untitled57/Output/NoOutput.h
  /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
- /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h
+ /Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h
  /Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
  /Users/chernyakova.run/CLionProjects/untitled57/main.cpp

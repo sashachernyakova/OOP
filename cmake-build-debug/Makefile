@@ -657,29 +657,29 @@ Reader/ConsoleReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/ConsoleReader.cpp.s
 .PHONY : Reader/ConsoleReader.cpp.s
 
-Reader/FileReader.o: Reader/FileReader.cpp.o
-.PHONY : Reader/FileReader.o
+Reader/FileNavigation.o: Reader/FileNavigation.cpp.o
+.PHONY : Reader/FileNavigation.o
 
 # target to build an object file
-Reader/FileReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.o
-.PHONY : Reader/FileReader.cpp.o
+Reader/FileNavigation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.o
+.PHONY : Reader/FileNavigation.cpp.o
 
-Reader/FileReader.i: Reader/FileReader.cpp.i
-.PHONY : Reader/FileReader.i
+Reader/FileNavigation.i: Reader/FileNavigation.cpp.i
+.PHONY : Reader/FileNavigation.i
 
 # target to preprocess a source file
-Reader/FileReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.i
-.PHONY : Reader/FileReader.cpp.i
+Reader/FileNavigation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.i
+.PHONY : Reader/FileNavigation.cpp.i
 
-Reader/FileReader.s: Reader/FileReader.cpp.s
-.PHONY : Reader/FileReader.s
+Reader/FileNavigation.s: Reader/FileNavigation.cpp.s
+.PHONY : Reader/FileNavigation.s
 
 # target to generate assembly for a file
-Reader/FileReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileReader.cpp.s
-.PHONY : Reader/FileReader.cpp.s
+Reader/FileNavigation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled57.dir/build.make CMakeFiles/untitled57.dir/Reader/FileNavigation.cpp.s
+.PHONY : Reader/FileNavigation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -780,9 +780,9 @@ help:
 	@echo "... Reader/ConsoleReader.o"
 	@echo "... Reader/ConsoleReader.i"
 	@echo "... Reader/ConsoleReader.s"
-	@echo "... Reader/FileReader.o"
-	@echo "... Reader/FileReader.i"
-	@echo "... Reader/FileReader.s"
+	@echo "... Reader/FileNavigation.o"
+	@echo "... Reader/FileNavigation.i"
+	@echo "... Reader/FileNavigation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

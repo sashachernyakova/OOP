@@ -96,26 +96,6 @@ Field.h
 ../Cell/CellView.h
 /Users/chernyakova.run/CLionProjects/untitled57/Cell/CellView.h
 
-/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.cpp
-Mediator.h
-/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.h
-
-/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Mediator.h
-../Reader/ConsoleReader.h
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
-../Controller/Controller.h
-/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h
-Output.h
-/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.h
-../Reader/Reader.h
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
-../Reader/FileReader.h
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
-
-/Users/chernyakova.run/CLionProjects/untitled57/Mediator/Output.h
-iostream
--
-
 /Users/chernyakova.run/CLionProjects/untitled57/Observer/ErrorObserver.h
 IObservable.h
 /Users/chernyakova.run/CLionProjects/untitled57/Observer/IObservable.h
@@ -172,21 +152,15 @@ ILog.h
 
 /Users/chernyakova.run/CLionProjects/untitled57/Player/Player.h
 
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/ConsoleReader.h
-string
--
-iostream
--
-Reader.h
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.cpp
+FileNavigation.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h
 
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileReader.h
-iostream
--
-Reader.h
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
-fstream
--
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/FileNavigation.h
+NavigationReader.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h
 
-/Users/chernyakova.run/CLionProjects/untitled57/Reader/Reader.h
+/Users/chernyakova.run/CLionProjects/untitled57/Reader/NavigationReader.h
+../Controller/Controller.h
+/Users/chernyakova.run/CLionProjects/untitled57/Controller/Controller.h
 

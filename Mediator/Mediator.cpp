@@ -51,16 +51,10 @@ Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
     output.rules();
     str = reader.read();
 
-    if(std::stoi(str) == 1){
-        int i = 1;
-        while(i<6){
-            std::getline(std::cin,str);
-            controller->madeVecDirection(str);
-            i++;
-        }
-    } else {
+    if(std::stoi(str) == 2){
+        navigationReader = new FileNavigation();
         std::ifstream in("navigation.txt");
-        controller->madeVecDirection(&in);
+        navigationReader->madeVecDirection(&in);
     }
     controller->start();
     output.gameRules();
@@ -68,10 +62,10 @@ Mediator::Mediator(): reader(ConsoleReader()), output(Output()){
 
 void Mediator::start() {
     str = moveReader->read();
-    while(str != controller->returnVec(4)) {
+    while(str != navigationReader->returnVec()[4]) {
         std::vector <std::string> out;
         makeVector(out, str);
-        int go = controller->isDirection(out[1]);
+        int go = controller->isDirection( navigationReader->returnVec(), out[1]);
         if (go != 0) {
             if (controller->movement(std::stoi(out[0]), controller->getAction(go)) == 1) {
                 return;
@@ -97,6 +91,7 @@ void Mediator::makeVector(std::vector<std::string> &vec, std::string str) {
 Mediator::~Mediator(){
     delete controller;
     delete moveReader;
+    delete navigationReader;
 }
 
 
